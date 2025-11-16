@@ -39,11 +39,50 @@ This directory should contain audio samples for the Musical Map of India project
 ### Manipur
 - `manipur-pung.mp3` - Classical pung drum performance for Manipuri dance
 
+## Instrument Track Files (for Soundscape Mixer)
+
+The **Soundscape Mixer** feature requires isolated instrument tracks for layering. Place these files in `/public/audio/instruments/`:
+
+### Rajasthan
+- `kamaycha_track.mp3` - Isolated kamaycha loop (melodic)
+- `dholak_track.wav` - Isolated dholak rhythm pattern
+- `algoza_loop.mp3` - Continuous algoza wind melody
+- `morchang_loop.mp3` - Jew's harp rhythmic pattern
+
+### Bengal
+- `ektara_loop.mp3` - Single-string ektara drone
+- `tabla_isolated_beat.wav` - Clean tabla pattern
+- `bansuri_alap.mp3` - Flute improvisation section
+- `dotara_track.mp3` - Two-string folk instrument
+
+### Punjab
+- `tumbi_loop.mp3` - High-pitched tumbi drone
+- `dhol_beat.mp3` - Powerful dhol rhythm cycle
+- `chimta_track.mp3` - Metal tongs percussion
+
+### Tamil Nadu
+- `veena_sample.mp3` - Veena melodic phrase
+- `mridangam_pattern.mp3` - Isolated mridangam rhythm
+- `nadaswaram_phrase.mp3` - Wind instrument melodic line
+- `ghatam_beat.mp3` - Clay pot percussion pattern
+
+### Kerala
+- `chenda_melam.mp3` - Chenda drum pattern
+- `maddalam_track.mp3` - Barrel drum rhythm
+- `kombu_call.mp3` - Horn section phrase
+
+**Important for Mixer Tracks:**
+- Should loop seamlessly (fade in/out at endpoints)
+- Clean recordings without other instruments bleeding
+- Same tempo across instruments from the same region
+- Same key/scale for melodic instruments
+
 ## Audio Specifications
 
-- **Format**: MP3 (recommended for web compatibility)
-- **Bitrate**: 128-192 kbps (balance between quality and file size)
+- **Format**: MP3 or WAV (WAV for percussion, MP3 for melodic)
+- **Bitrate**: 128-192 kbps for MP3 (balance between quality and file size)
 - **Duration**: 30-90 seconds per sample (short clips for web experience)
+- **Loop Duration**: 4-8 bars for instrument tracks (mixer feature)
 - **Sample Rate**: 44.1 kHz
 - **File Size**: Aim for <3MB per file
 

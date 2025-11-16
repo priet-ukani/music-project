@@ -1,27 +1,63 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Music, MapPin, Languages, Drum, Mic2, Users, Play, BookOpen } from 'lucide-react';
-import { useState } from 'react';
+import { X, Music, MapPin, Languages, Drum, Mic2, Users, Play, BookOpen, Layers } from 'lucide-react';
+import { useState, useEffect } from 'react';
 import type { MusicalRegion } from '../types/music';
+import type { RegionalArtist } from '../types/music';
+import regionalArtistsEnhanced from '../data/regionalArtistsEnhanced';
+import ArtistCard from './ArtistCard';
+import instrumentsMetadata from '../data/instrumentsMetadata';
+import InstrumentSpotlight from './InstrumentSpotlight';
+import WaveformPlayer from './WaveformPlayer';
+import SoundscapeMixer from './SoundscapeMixer';
 
 interface RegionModalProps {
   region: MusicalRegion;
   onClose: () => void;
   onPlayAudio: (audioUrl: string) => void;
-  onInstrumentSearch?: (query: string) => void;
-  instrumentQuery?: string;
 }
 
 type TabType = 'overview' | 'instruments' | 'structure' | 'performance' | 'social' | 'references';
+// include 'artists' tab
+type ExtendedTabType = TabType | 'artists';
 
-const RegionModal: React.FC<RegionModalProps> = ({ region, onClose, onPlayAudio, onInstrumentSearch, instrumentQuery = '' }) => {
-  const [activeTab, setActiveTab] = useState<TabType>('overview');
-  const [instrumentSearch, setInstrumentSearch] = useState<string>(instrumentQuery);
+const RegionModal: React.FC<RegionModalProps> = ({ region, onClose }) => {
+  console.log('RegionModal rendering for:', region.name);
+  const [activeTab, setActiveTab] = useState<ExtendedTabType>('overview');
+  const [selectedArtist, setSelectedArtist] = useState<RegionalArtist | null>(null);
+  const [selectedInstrument, setSelectedInstrument] = useState<string | null>(null);
+  const [isOpen, setIsOpen] = useState(false);
+  const [showSoundscapeMixer, setShowSoundscapeMixer] = useState(false);
 
-  const tabs: { id: TabType; label: string; icon: React.ReactNode }[] = [
+  // Prevent immediate closing by delaying the click handler activation
+  useEffect(() => {
+    console.log('RegionModal mounted, starting 500ms guard');
+    const timer = setTimeout(() => {
+      console.log('Guard released - modal can now be closed via backdrop');
+      setIsOpen(true);
+    }, 500);
+    return () => {
+      console.log('RegionModal unmounting');
+      clearTimeout(timer);
+    };
+  }, []);
+
+  const handleBackdropClick = (e: React.MouseEvent) => {
+    console.log('Backdrop click detected, isOpen:', isOpen);
+    if (isOpen) {
+      console.log('Backdrop clicked, closing modal');
+      onClose();
+    } else {
+      console.log('Backdrop click ignored - modal just opened (guard active)');
+      e.stopPropagation();
+    }
+  };
+
+  const tabs: { id: ExtendedTabType; label: string; icon: React.ReactNode }[] = [
     { id: 'overview', label: 'Overview', icon: <MapPin className="w-4 h-4" /> },
     { id: 'instruments', label: 'Instruments', icon: <Music className="w-4 h-4" /> },
     { id: 'structure', label: 'Structure', icon: <Drum className="w-4 h-4" /> },
     { id: 'performance', label: 'Performance', icon: <Mic2 className="w-4 h-4" /> },
+    { id: 'artists', label: 'Regional Artists', icon: <Users className="w-4 h-4" /> },
     { id: 'social', label: 'Social', icon: <Users className="w-4 h-4" /> },
     ...(region.sources ? [{ id: 'references' as TabType, label: 'References', icon: <BookOpen className="w-4 h-4" /> }] : []),
   ];
@@ -29,11 +65,11 @@ const RegionModal: React.FC<RegionModalProps> = ({ region, onClose, onPlayAudio,
   return (
     <AnimatePresence>
       <motion.div
-        className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+        className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[9999] flex items-center justify-center p-4"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        onClick={onClose}
+        onClick={handleBackdropClick}
       >
         <motion.div
           className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden"
@@ -59,6 +95,15 @@ const RegionModal: React.FC<RegionModalProps> = ({ region, onClose, onPlayAudio,
               </button>
               <h2 className="text-3xl font-bold mb-2">{region.name}</h2>
               <p className="text-white/90">{region.description}</p>
+              
+              {/* Soundscape Mixer Button */}
+              <button
+                onClick={() => setShowSoundscapeMixer(true)}
+                className="mt-4 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white px-6 py-2.5 rounded-lg flex items-center gap-2 font-semibold transition-all border border-white/40"
+              >
+                <Layers className="w-5 h-5" />
+                Create Soundscape Mix
+              </button>
             </div>
           </div>
 
@@ -126,25 +171,19 @@ const RegionModal: React.FC<RegionModalProps> = ({ region, onClose, onPlayAudio,
                       </div>
                     </Section>
 
-                    {/* Audio Samples */}
+                    {/* Audio Samples with Waveform Visualization */}
                     {region.audioSamples.length > 0 && (
                       <Section title="Audio Samples" icon={<Play />}>
-                        <div className="space-y-3">
+                        <div className="space-y-4">
                           {region.audioSamples.map((sample, idx) => (
-                            <div key={idx} className="border border-gray-200 rounded-lg p-4 hover:border-primary-300 transition-colors">
-                              <div className="flex items-start justify-between">
-                                <div className="flex-1">
-                                  <h4 className="font-semibold text-gray-800">{sample.title}</h4>
-                                  <p className="text-sm text-gray-600 mt-1">{sample.description}</p>
-                                </div>
-                                <button
-                                  onClick={() => onPlayAudio(sample.file)}
-                                  className="ml-4 p-2 bg-primary-600 text-white rounded-full hover:bg-primary-700 transition-colors"
-                                >
-                                  <Play className="w-4 h-4" />
-                                </button>
-                              </div>
-                            </div>
+                            <WaveformPlayer
+                              key={idx}
+                              audioUrl={sample.file}
+                              title={sample.title}
+                              description={sample.description}
+                              waveColor={region.color ? `${region.color}40` : '#94a3b8'}
+                              progressColor={region.color || '#f97316'}
+                            />
                           ))}
                         </div>
                       </Section>
@@ -227,34 +266,16 @@ const RegionModal: React.FC<RegionModalProps> = ({ region, onClose, onPlayAudio,
 
                 {activeTab === 'instruments' && (
                   <div className="space-y-6">
-                    <div className="flex items-center gap-2">
-                      <input
-                        value={instrumentSearch}
-                        onChange={(e) => setInstrumentSearch(e.target.value)}
-                        placeholder="Search instrument (e.g., dhol, veena)"
-                        className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
-                      />
-                      <button
-                        className="px-3 py-2 bg-primary-600 text-white rounded-lg text-sm"
-                        onClick={() => onInstrumentSearch && onInstrumentSearch(instrumentSearch)}
-                      >
-                        Search
-                      </button>
-                      {instrumentSearch && (
-                        <button
-                          className="px-3 py-2 bg-gray-200 text-gray-800 rounded-lg text-sm"
-                          onClick={() => { setInstrumentSearch(''); onInstrumentSearch && onInstrumentSearch(''); }}
-                        >
-                          Clear
-                        </button>
-                      )}
-                    </div>
                     <Section title="Melodic Instruments" icon={<Music />}>
                       <div className="grid grid-cols-2 gap-3">
                         {region.instruments.melodic.map((instrument, idx) => (
-                          <div key={idx} className="p-3 bg-gradient-to-br from-primary-50 to-primary-100 rounded-lg">
+                          <button
+                            key={idx}
+                            onClick={() => setSelectedInstrument(instrument)}
+                            className="p-3 bg-gradient-to-br from-primary-50 to-primary-100 rounded-lg text-left hover:shadow-md transition-shadow"
+                          >
                             <p className="font-medium text-primary-800">{instrument}</p>
-                          </div>
+                          </button>
                         ))}
                       </div>
                     </Section>
@@ -262,9 +283,13 @@ const RegionModal: React.FC<RegionModalProps> = ({ region, onClose, onPlayAudio,
                     <Section title="Rhythmic Instruments" icon={<Drum />}>
                       <div className="grid grid-cols-2 gap-3">
                         {region.instruments.rhythmic.map((instrument, idx) => (
-                          <div key={idx} className="p-3 bg-gradient-to-br from-secondary-50 to-secondary-100 rounded-lg">
+                          <button
+                            key={idx}
+                            onClick={() => setSelectedInstrument(instrument)}
+                            className="p-3 bg-gradient-to-br from-secondary-50 to-secondary-100 rounded-lg text-left hover:shadow-md transition-shadow"
+                          >
                             <p className="font-medium text-secondary-800">{instrument}</p>
-                          </div>
+                          </button>
                         ))}
                       </div>
                     </Section>
@@ -274,7 +299,9 @@ const RegionModal: React.FC<RegionModalProps> = ({ region, onClose, onPlayAudio,
                         {region.instruments.unique.map((instrument, idx) => (
                           <li key={idx} className="flex items-start space-x-2">
                             <span className="text-primary-600 mt-1">•</span>
-                            <span className="text-gray-700">{instrument}</span>
+                            <button className="text-gray-700 underline" onClick={() => setSelectedInstrument(instrument)}>
+                              {instrument}
+                            </button>
                           </li>
                         ))}
                       </ul>
@@ -289,6 +316,52 @@ const RegionModal: React.FC<RegionModalProps> = ({ region, onClose, onPlayAudio,
                         ))}
                       </div>
                     </Section>
+                    {/* Instrument spotlight modal */}
+                    <InstrumentSpotlight
+                      name={selectedInstrument}
+                      image={selectedInstrument ? (instrumentsMetadata[selectedInstrument]?.image ?? `https://via.placeholder.com/640x420?text=${encodeURIComponent(selectedInstrument)}`) : undefined}
+                      description={selectedInstrument ? (instrumentsMetadata[selectedInstrument]?.description ?? '') : undefined}
+                      onClose={() => setSelectedInstrument(null)}
+                    />
+                  </div>
+                )}
+
+                {activeTab === 'artists' && (
+                  <div className="space-y-4">
+                    <Section title="Regional Artists" icon={<Users />}>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                        {(regionalArtistsEnhanced[region.id] || []).map((artist, idx) => (
+                          <button
+                            key={idx}
+                            onClick={() => setSelectedArtist(artist)}
+                            className="text-left p-4 border border-gray-200 rounded-lg hover:shadow-md transition-all bg-white hover:border-orange-500 group"
+                          >
+                            <div className="flex items-start gap-2">
+                              <div className="flex-1">
+                                <div className="font-semibold text-gray-800 group-hover:text-orange-600 transition">{artist.name}</div>
+                                {artist.genres && artist.genres.length > 0 && (
+                                  <div className="text-xs text-gray-500 mt-1">{artist.genres[0]}</div>
+                                )}
+                                {artist.awards && artist.awards.length > 0 && (
+                                  <div className="mt-2 flex items-center gap-1">
+                                    <span className="text-yellow-600 text-xs">🏆</span>
+                                    <span className="text-xs text-yellow-700 font-medium">{artist.awards[0].name}</span>
+                                  </div>
+                                )}
+                              </div>
+                              {artist.status === 'living' && (
+                                <span className="text-green-500 text-xs mt-1">●</span>
+                              )}
+                            </div>
+                          </button>
+                        ))}
+                        {(!(regionalArtistsEnhanced[region.id] || []).length) && (
+                          <div className="text-sm text-gray-600 col-span-full">No artist data available for this region.</div>
+                        )}
+                      </div>
+                    </Section>
+                    {/* Artist detail modal */}
+                    <ArtistCard artist={selectedArtist} onClose={() => setSelectedArtist(null)} />
                   </div>
                 )}
 
@@ -517,6 +590,16 @@ const RegionModal: React.FC<RegionModalProps> = ({ region, onClose, onPlayAudio,
             </AnimatePresence>
           </div>
         </motion.div>
+
+        {/* Soundscape Mixer Modal */}
+        {showSoundscapeMixer && (
+          <SoundscapeMixer
+            regionId={region.id}
+            regionName={region.name}
+            regionColor={region.color}
+            onClose={() => setShowSoundscapeMixer(false)}
+          />
+        )}
       </motion.div>
     </AnimatePresence>
   );

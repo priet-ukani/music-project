@@ -1,0 +1,1505 @@
+# ENHANCED COMPREHENSIVE PROMPTS - ALL INDIAN STATES
+
+## **ENHANCED PROMPT 2: Regional Artist Profiles - Complete India Coverage**
+
+```
+Create a comprehensive "Regional Artists" section covering ALL Indian states and union territories with authentic traditional and contemporary musicians:
+
+### ARTIST DATABASE STRUCTURE:
+For each musical region, include 4-6 prominent artists:
+- Name, birth year (if living), death year (if historical), region/state
+- Community/gharana affiliation (if applicable)
+- Genre specialization with specific style details
+- Notable achievements, awards (Padma awards, Sangeet Natak Akademi, Grammy)
+- Representative recordings with links (Spotify/YouTube/SoundCloud)
+- High-quality photo (Wikimedia Commons/official sources)
+- Detailed biography (150-200 words)
+- Hereditary tradition vs. learned tradition
+- Current status (living/deceased) and active years
+- Social media handles (verified accounts only)
+
+---
+
+## COMPREHENSIVE STATE-WISE ARTIST LIST
+
+### **TELANGANA** (MANDATORY - PRIMARY FOCUS)
+**Traditional/Folk:**
+1. **Darshanam Mogilaiah** (Kinnera instrument master)
+   - Community: Chenchu tribal community
+   - Instrument: Kinnera (ancient string instrument)
+   - Awards: Padma Shri 2022
+   - Genre: Tribal folk, devotional
+   - Notable: Revived nearly extinct Kinnera tradition
+   - Active: 1940s-present
+
+2. **Gaddam Sammayya** (Oggu Katha performer)
+   - Community: Kuruma (shepherd) community
+   - Genre: Oggu Katha (narrative ballad tradition)
+   - Specialty: Epic storytelling with dappu drum
+   - Region: Warangal district
+   - Active: 1960s-2010s
+
+3. **Goreti Venkanna** (Folk singer - "Janapadala Hrudaya Samrat")
+   - Genre: Janapada Geethalu (folk songs)
+   - Famous songs: "Okatante Antey," "Bommali"
+   - Language: Telugu folk
+   - Active: 1980s-present
+   - Awards: Multiple state honors
+
+4. **Chintha Ravi Shankar Sharma** (Burra Katha artist)
+   - Genre: Burra Katha (traditional storytelling with tambura)
+   - Community: Traditional bard community
+   - Specialty: Social commentary through narrative
+   - Active: 1970s-present
+
+5. **Vimalakka (Ananthula Vimala)** (Revolutionary folk singer)
+   - Genre: Political folk songs, protest music
+   - Notable: Songs for Telangana statehood movement
+   - Style: Contemporary folk with traditional instruments
+   - Active: 1990s-present
+
+6. **Kinnera Mogulaiah Family Ensemble**
+   - Multi-generational Kinnera performers
+   - Preserving Chenchu tribal music traditions
+   - Perform at cultural festivals nationwide
+
+**Classical/Contemporary:**
+7. **Mangalampalli Balamuralikrishna** (Carnatic legend, though born in Andhra, strong Telangana connection)
+   - Genre: Carnatic classical
+   - Awards: Padma Vibhushan, Sangeet Natak Akademi
+   - Active: 1940s-2016
+
+---
+
+### **GUJARAT** (MANDATORY - PRIMARY FOCUS)
+**Folk/Traditional:**
+1. **Osman Mir** (Sufi folk singer)
+   - Genre: Gujarati folk, Sufi Qawwali
+   - Famous: "Har Har Gange" (viral hit)
+   - Community: Muslim Qawwal tradition
+   - Active: 2000s-present
+   - Social media: Huge Instagram following
+
+2. **Hemant Chauhan** (Devotional/folk singer)
+   - Genre: Gujarati Bhajans, folk
+   - Famous: Gujarati Garba songs
+   - Specialty: Shrinathji devotional songs
+   - Active: 1990s-present
+
+3. **Kirtidan Gadhvi** (Folk fusion artist)
+   - Genre: Gujarati folk with contemporary fusion
+   - Famous: "Aakhan Mali, Thai Thai Thai"
+   - Style: Dayro, Garba, folk ballads
+   - Active: 2010s-present
+   - Awards: Multiple Gujarat state awards
+
+4. **Geeta Rabari** (Young folk sensation)
+   - Genre: Gujarati folk, Garba
+   - Community: Rabari (pastoral community)
+   - Notable: YouTube sensation, traditional voice
+   - Active: 2015-present
+
+5. **Praful Dave** (Bhajan singer)
+   - Genre: Gujarati devotional music
+   - Specialty: Krishna bhajans
+   - Famous: "Jai Jai Govind" series
+   - Active: 1980s-present
+
+6. **Kishore Manraja** (Garba king)
+   - Genre: Traditional Garba, folk
+   - Specialty: Navratri festival performances
+   - Famous: "Mara Ghat Ma Birajta Shrinathji"
+   - Active: 1980s-present
+
+**Classical:**
+7. **Pandit Ronu Majumdar** (Flute maestro)
+   - Genre: Hindustani classical (Bansuri)
+   - Born: Varanasi, settled Gujarat
+   - Awards: Padma Shri
+   - Active: 1980s-present
+
+---
+
+### **RAJASTHAN** (MANDATORY - PRIMARY FOCUS)
+**Folk/Traditional:**
+1. **Mame Khan** (Manganiyar community)
+   - Genre: Rajasthani Sufi folk
+   - Community: Manganiyar (hereditary musicians)
+   - Famous: Bollywood playback ("Chaudhary," "Bismil")
+   - International tours: WOMEX, Glastonbury
+   - Active: 2000s-present
+
+2. **Sawan Khan Manganiyar** (Kamaycha virtuoso)
+   - Instrument: Kamaycha (bowed string)
+   - Community: Manganiyar
+   - Specialty: Pure traditional Rajasthani folk
+   - Active: 1970s-present
+   - Awards: Sangeet Natak Akademi nomination
+
+3. **Lakha Khan** (Sindhi Sarangi master)
+   - Instrument: Sindhi Sarangi
+   - Community: Manganiyar
+   - Awards: Padma Shri 2016
+   - Notable: Featured in documentaries
+   - Active: 1960s-present
+
+4. **Barmer Boys** (Folk ensemble)
+   - Members: Multiple Manganiyar musicians
+   - Genre: Desert folk fusion
+   - International recognition: World music charts
+   - Active: 2010s-present
+
+5. **Asin Khan Langa** (Langa community master)
+   - Community: Langa (Muslim hereditary musicians)
+   - Instrument: Sarangi, vocals
+   - Genre: Traditional Maand, devotional Sufi
+   - Active: 1980s-present
+
+6. **Kutle Khan & Mame Khan** (Father-son duo)
+   - Kutle Khan: Senior Manganiyar vocalist
+   - Multi-generational tradition
+   - International touring artists
+
+7. **Anwar Khan Manganiyar** (Khartal specialist)
+   - Instrument: Khartal (wooden clappers)
+   - Specialty: Percussion and vocals
+   - Active: 1990s-present
+
+8. **Nathoo Lal Solanki** (Bhopa community - Pabuji ki Phad)
+   - Genre: Pabuji ki Phad (epic narrative)
+   - Instrument: Ravanhatha
+   - Tradition: Scroll painting with music
+   - Active: 1970s-2015
+
+**Contemporary/Fusion:**
+9. **Swarathma** (Folk rock band with Rajasthani influences)
+   - Based: Bangalore, Rajasthani roots
+   - Style: Folk rock fusion
+   - Active: 2009-present
+
+---
+
+### **DELHI/NCR** (MANDATORY - PRIMARY FOCUS)
+**Classical:**
+1. **Ustad Zakir Hussain** (Delhi born, tabla maestro)
+   - Genre: Hindustani classical percussion
+   - Gharana: Punjab gharana
+   - Awards: Padma Vibhushan, Grammy winner (3x)
+   - Active: 1970s-present
+
+2. **Pandit Rajan Mishra & Sajan Mishra** (Vocal duo)
+   - Genre: Hindustani classical (Khayal)
+   - Gharana: Banaras gharana (Delhi based)
+   - Awards: Padma Bhushan
+   - Active: 1970s-present (Rajan deceased 2021)
+
+3. **Begum Parveen Sultana** (Classical vocalist)
+   - Genre: Hindustani classical
+   - Gharana: Patiala gharana (Delhi based)
+   - Awards: Padma Shri, Sangeet Natak Akademi
+   - Active: 1960s-present
+
+**Qawwali/Sufi:**
+4. **Nizami Bandhu** (Qawwali group)
+   - Members: Shadab Faridi, Sohrab Faridi
+   - Genre: Qawwali, Sufi music
+   - Venue: Regular at Hazrat Nizamuddin Dargah
+   - Active: 2000s-present
+
+5. **Chand Nizami** (Qawwal)
+   - Venue: Nizamuddin Dargah
+   - Genre: Traditional Qawwali
+   - Lineage: 700-year qawwali family tradition
+   - Active: 1980s-present
+
+**Contemporary:**
+6. **Parikrama** (Rock band - Delhi based)
+   - Genre: Rock with classical fusion
+   - Famous: "But It Rained"
+   - Active: 1991-present
+
+---
+
+### **PUNJAB** (MANDATORY - PRIMARY FOCUS)
+**Folk/Bhangra:**
+1. **Gurdas Maan** (Folk legend)
+   - Genre: Punjabi folk, Bhangra, devotional
+   - Famous: "Dil Da Mamla Hai," "Apna Punjab"
+   - Awards: Padma Shri, lifetime achievement
+   - Active: 1980s-present
+
+2. **Hans Raj Hans** (Sufi folk singer)
+   - Genre: Punjabi Sufi, folk
+   - Awards: Padma Shri 2020
+   - Famous: "Punjabi aa gaye ni," Sufi qawwalis
+   - Active: 1980s-present
+
+3. **Surinder Kaur** (Folk legend - deceased)
+   - Genre: Punjabi folk songs
+   - Era: Golden era of Punjabi music
+   - Famous: "Lathe Di Chadar"
+   - Active: 1940s-2008
+
+4. **Alam Lohar** (Folk legend - deceased)
+   - Genre: Punjabi folk, Mahiya
+   - Instrument: Tumbi, chimta
+   - Era: 1950s-1979
+   - Legacy: Father of modern Punjabi folk
+
+5. **Yamla Jatt & Surinder Shinda** (Folk pioneers)
+   - Genre: Traditional Punjabi folk
+   - Era: 1970s-1990s
+   - Influence: Shaped modern Bhangra
+
+**Classical/Devotional:**
+6. **Bhai Nirmal Singh Khalsa** (Kirtan maestro)
+   - Genre: Sikh devotional (Gurbani Kirtan)
+   - Awards: Padma Shri 2009
+   - Tradition: Gurmat Sangeet
+   - Active: 1970s-present
+
+7. **Bibi Jaswant Kaur** (Kirtan singer)
+   - Genre: Gurbani Kirtan
+   - Specialty: Classical raag-based kirtan
+   - Active: 1980s-present
+
+**Contemporary:**
+8. **Jazzy B** (Modern Bhangra)
+   - Genre: Bhangra, Punjabi pop
+   - International success
+   - Active: 1990s-present
+
+---
+
+### **UTTAR PRADESH**
+**Classical:**
+1. **Pandit Birju Maharaj** (Kathak legend - deceased 2022)
+   - Genre: Kathak dance, Hindustani classical
+   - City: Lucknow
+   - Awards: Padma Vibhushan
+   - Gharana: Lucknow Kalka-Bindadin gharana
+
+2. **Pandit Jasraj** (Vocal maestro - deceased 2020)
+   - Genre: Hindustani classical
+   - City: Based in multiple cities
+   - Awards: Padma Vibhushan
+   - Gharana: Mewati gharana
+
+3. **Pandit Hariprasad Chaurasia** (Bansuri maestro)
+   - Genre: Hindustani classical flute
+   - Awards: Padma Vibhushan
+   - Active: 1960s-present
+
+4. **Ustad Bismillah Khan** (Shehnai maestro - deceased 2006)
+   - City: Varanasi/Banaras
+   - Genre: Shehnai classical
+   - Awards: Bharat Ratna
+   - Legacy: Made shehnai a classical instrument
+
+**Folk:**
+5. **Malini Awasthi** (Folk singer)
+   - Genre: UP folk songs, Kajri, Chaiti
+   - Region: Purvanchal folk traditions
+   - Active: 1990s-present
+
+6. **Padma Talwalkar** (Thumri specialist)
+   - Genre: Thumri, Dadra, light classical
+   - City: Lucknow tradition
+   - Active: 1970s-present
+
+---
+
+### **WEST BENGAL**
+**Classical:**
+1. **Pandit Ajoy Chakrabarty** (Hindustani vocalist)
+   - Genre: Hindustani classical
+   - Gharana: Patiala-Kasur gharana
+   - Awards: Padma Bhushan
+   - Active: 1970s-present
+
+2. **Rashid Khan** (Hindustani vocalist)
+   - Genre: Hindustani classical
+   - Gharana: Rampur-Sahaswan gharana
+   - Awards: Padma Shri
+   - Active: 1990s-present
+
+**Rabindra Sangeet:**
+3. **Pankaj Kumar Mallick** (Rabindra Sangeet legend - deceased)
+   - Genre: Rabindra Sangeet
+   - Era: 1950s-1978
+   - Legacy: Defined modern Rabindra Sangeet style
+
+4. **Suchitra Mitra** (Rabindra Sangeet - deceased 2011)
+   - Genre: Rabindra Sangeet
+   - Awards: Padma Bhushan
+   - Era: 1940s-2011
+
+5. **Shreya Guhathakurta** (Contemporary Rabindra Sangeet)
+   - Genre: Rabindra Sangeet
+   - Active: 1980s-present
+
+**Baul:**
+6. **Parvathy Baul** (Female Baul singer)
+   - Genre: Baul mystical music
+   - International acclaim
+   - Active: 2000s-present
+
+7. **Purna Das Baul** (Baul legend)
+   - Genre: Traditional Baul
+   - Grammy collaboration with Bob Dylan
+   - Awards: Padma Shri 2010
+   - Active: 1960s-present
+
+8. **Lakhan Das Baul** (Traditional Baul)
+   - Genre: Pure Baul tradition
+   - Travels village to village
+   - Active: 1970s-present
+
+**Bengali Folk:**
+9. **Mohan Singh Ahluwalia (Khyāl)** - Cross-cultural folk
+10. **Kabir Suman** (Bengali protest songs)
+
+---
+
+### **MAHARASHTRA**
+**Classical:**
+1. **Pandit Bhimsen Joshi** (Hindustani legend - deceased 2011)
+   - Genre: Hindustani classical (Khayal)
+   - Gharana: Kirana gharana
+   - Awards: Bharat Ratna
+   - City: Pune
+
+2. **Kishori Amonkar** (Hindustani vocalist - deceased 2017)
+   - Genre: Hindustani classical
+   - Gharana: Jaipur gharana
+   - Awards: Padma Vibhushan
+
+3. **Pandit Jasraj** (Classical maestro - also UP)
+   - Genre: Hindustani classical
+   - Awards: Padma Vibhushan
+
+**Folk/Lavani:**
+4. **Sulochana Chavan** (Lavani queen - deceased 2010)
+   - Genre: Lavani (traditional dance-song)
+   - Era: 1960s-2010
+   - Legacy: "Natyasangeet and Lavani icon"
+
+5. **Suresh Wadkar** (Devotional/Bhajans)
+   - Genre: Abhang, Bhajans, Marathi devotional
+   - Awards: Padma Shri
+   - Active: 1970s-present
+
+6. **Asha Khadilkar** (Marathi Natya Sangeet)
+   - Genre: Marathi musical theater
+   - Active: 1970s-present
+
+**Powada/Folk:**
+7. **Shahir Sable** (Folk ballad singer - deceased)
+   - Genre: Powada (heroic ballads)
+   - Era: 1940s-1970s
+   - Legacy: Documented Maratha history
+
+---
+
+### **TAMIL NADU**
+**Carnatic Classical:**
+1. **M.S. Subbulakshmi** (Carnatic legend - deceased 2004)
+   - Genre: Carnatic classical
+   - Awards: Bharat Ratna (first musician)
+   - Era: 1930s-2004
+
+2. **T.M. Krishna** (Contemporary Carnatic)
+   - Genre: Carnatic classical, social activist
+   - Awards: Magsaysay Award, Sangeet Natak Akademi
+   - Active: 2000s-present
+
+3. **Bombay Jayashri** (Carnatic vocalist)
+   - Genre: Carnatic classical
+   - Notable: Oscar-nominated song "Pi's Lullaby"
+   - Active: 1990s-present
+
+4. **Dr. N. Ramani** (Flute maestro - deceased 2015)
+   - Genre: Carnatic flute
+   - Awards: Padma Shri
+
+5. **Umayalpuram K. Sivaraman** (Mridangam maestro)
+   - Genre: Carnatic percussion
+   - Awards: Padma Vibhushan
+   - Active: 1960s-present
+
+**Folk/Gaana:**
+6. **Gaana Bala** (Gaana genre pioneer)
+   - Genre: Chennai Gaana (street music)
+   - Notable: Brought Gaana to mainstream
+   - Active: 1990s-present
+
+7. **Casteless Collective** (Contemporary Gaana band)
+   - Genre: Gaana, anti-caste music
+   - Leader: PA Ranjith (filmmaker)
+   - Active: 2017-present
+
+**Temple Music:**
+8. **Thiruvizha Jayashankar** (Nadaswaram maestro)
+   - Genre: Temple nadaswaram
+   - Tradition: Periya Melam
+   - Active: 1980s-present
+
+---
+
+### **KARNATAKA**
+**Carnatic Classical:**
+1. **Vidwan R.K. Padmanabha** (Carnatic vocalist)
+   - Genre: Carnatic classical
+   - Active: 1970s-present
+
+2. **Mandolin U. Srinivas** (Mandolin maestro - deceased 2014)
+   - Genre: Carnatic mandolin
+   - Awards: Padma Shri
+   - Innovation: Adapted mandolin to Carnatic
+
+3. **Dr. Mysore Manjunath** (Violinist)
+   - Genre: Carnatic violin
+   - Awards: Sangeet Natak Akademi
+   - Active: 1980s-present
+
+**Folk/Yakshagana:**
+4. **Chittani Ramachandra Hegde** (Yakshagana artist)
+   - Genre: Yakshagana (traditional theater)
+   - Awards: Padma Shri 2018
+   - Active: 1960s-present
+
+5. **Keremane Shivananda Hegde** (Yakshagana maestro - deceased 2016)
+   - Genre: Yakshagana
+   - Awards: Padma Shri
+
+**Haridasa Tradition:**
+6. **Vidyabhushana** (Haridasa music scholar)
+   - Genre: Dasa Sahitya devotional
+   - Active: 1970s-present
+
+---
+
+### **KERALA**
+**Classical/Temple:**
+1. **Peruvanam Kuttan Marar** (Chenda maestro - deceased 2024)
+   - Genre: Temple chenda melam
+   - Tradition: Panchavadyam
+   - Awards: Padma Shri 2014
+
+2. **K.J. Yesudas** (Playback + Classical)
+   - Genre: Carnatic classical, film playback
+   - Awards: Padma Vibhushan, 8x National Awards
+   - Active: 1960s-present
+
+3. **P. Jayachandran** (Playback singer)
+   - Genre: Malayalam film, light classical
+   - Active: 1970s-present
+
+**Sopanam/Temple:**
+4. **Neralattu Rama Poduval** (Sopanam singer - deceased 2008)
+   - Genre: Sopanam temple music
+   - Awards: Padma Shri
+   - Tradition: Pure temple singing
+
+**Mappila Songs:**
+5. **Paravoor Ramachandran** (Mappila folk - deceased)
+   - Genre: Mappila Pattu (Muslim folk songs)
+   - Era: 1950s-1980s
+
+---
+
+### **ANDHRA PRADESH**
+**Carnatic Classical:**
+1. **Mangalampalli Balamuralikrishna** (Legend - deceased 2016)
+   - Genre: Carnatic classical
+   - Awards: Padma Vibhushan
+   - Active: 1940s-2016
+
+2. **Nedunuri Krishnamurthy** (Carnatic vocalist)
+   - Genre: Carnatic classical
+   - Awards: Padma Shri
+   - Active: 1970s-present
+
+**Folk:**
+3. **Vangapandu Prasada Rao** (Burra Katha)
+   - Genre: Burra Katha storytelling
+   - Awards: Padma Shri
+   - Active: 1960s-2000s
+
+---
+
+### **ODISHA**
+**Classical:**
+1. **Pandit Raghunath Panigrahi** (Odissi vocalist - deceased 2010)
+   - Genre: Odissi music
+   - Awards: Padma Shri
+   - Married to: Sanjukta Panigrahi (Odissi dancer)
+
+2. **Damodar Hota** (Mardala maestro - deceased 2000)
+   - Genre: Mardala (Odissi percussion)
+   - Awards: Sangeet Natak Akademi
+
+**Folk:**
+3. **Aruna Mohanty** (Odissi dancer/vocalist)
+   - Genre: Odissi classical dance-music
+   - Awards: Padma Shri
+   - Active: 1980s-present
+
+---
+
+### **ASSAM**
+**Folk/Bihu:**
+1. **Bhupen Hazarika** (Folk legend - deceased 2011)
+   - Genre: Assamese folk, protest songs
+   - Awards: Bharat Ratna (posthumous)
+   - Legacy: "Bard of Brahmaputra"
+
+2. **Zubeen Garg** (Contemporary folk/pop)
+   - Genre: Bihu, Assamese folk fusion
+   - Active: 1990s-present
+
+3. **Papon (Angarag Mahanta)** (Folk fusion)
+   - Genre: Assamese folk with contemporary fusion
+   - Active: 2000s-present
+
+4. **Khagen Mahanta** (Folk singer - deceased 2014)
+   - Genre: Assamese modern folk songs
+   - Era: 1970s-2014
+
+**Borgeet/Classical:**
+5. **Bhupen Uzir** (Borgeet singer)
+   - Genre: Borgeet (Vaishnavite devotional)
+   - Active: 1970s-present
+
+---
+
+### **MANIPUR**
+**Classical:**
+1. **Laishram Birachandra Sharma** (Pena master)
+   - Instrument: Pena (traditional fiddle)
+   - Genre: Manipuri classical
+   - Active: 1970s-present
+
+2. **Mangka Mayanglambam** (Pung maestro)
+   - Instrument: Pung (barrel drum)
+   - Genre: Nata Sankirtana
+   - Awards: Sangeet Natak Akademi
+
+**Folk:**
+3. **Mohen Naorem** (Pena scholar-performer)
+   - Genre: Traditional Pena music
+   - Research: Documenting Pena traditions
+   - Active: 2000s-present
+
+---
+
+### **NAGALAND**
+**Folk/Tribal:**
+1. **Nise Meruno** (Chakhesang tribal folk)
+   - Genre: Traditional Naga folk songs
+   - Active: 1990s-present
+
+2. **Mount Olive Collective** (Contemporary gospel/folk)
+   - Genre: Naga gospel with traditional elements
+   - Active: 2010s-present
+
+3. **Tetseo Sisters** (Contemporary Naga folk)
+   - Genre: Chakhesang folk, contemporary
+   - International tours
+   - Active: 2010s-present
+
+---
+
+### **KASHMIR/JAMMU & KASHMIR**
+**Sufiana/Classical:**
+1. **Pandit Bhajan Sopori** (Santoor maestro - deceased 2022)
+   - Instrument: Santoor
+   - Genre: Hindustani classical, Sufiana
+   - Awards: Padma Shri
+
+2. **Abhay Rustum Sopori** (Santoor player - son of Bhajan Sopori)
+   - Genre: Santoor, Sufiana Kalam
+   - Active: 2000s-present
+
+**Folk:**
+3. **Gulzar Ahmed Ganai** (Santoor folk)
+   - Genre: Kashmiri folk, Sufiana
+   - Active: 1980s-present
+
+4. **Rashid Hafiz** (Sufi singer)
+   - Genre: Kashmiri Sufi music
+   - Active: 1990s-present
+
+---
+
+### **GOA**
+**Konkani/Mando:**
+1. **Lorna Cordeiro** (Mando queen - deceased 2015)
+   - Genre: Konkani Mando
+   - Era: 1960s-2015
+   - Legacy: Preserved Goan musical heritage
+
+2. **Chris Perry & Lorna** (Musical duo)
+   - Genre: Goan pop, Mando
+   - Era: 1960s-1980s
+
+3. **Remo Fernandes** (Pop rock)
+   - Genre: Goan pop, fusion
+   - Active: 1970s-present
+
+---
+
+### **CHHATTISGARH**
+**Folk:**
+1. **Teejan Bai** (Pandavani artist)
+   - Genre: Pandavani (epic storytelling)
+   - Awards: Padma Vibhushan, Sangeet Natak Akademi
+   - Active: 1970s-present
+
+2. **Ritu Verma** (Pandavani, younger generation)
+   - Genre: Pandavani
+   - Active: 2000s-present
+
+---
+
+### **JHARKHAND**
+**Tribal/Folk:**
+1. **Madhu Mansuri Hasmukh** (Santhali singer)
+   - Genre: Santhali tribal songs
+   - Awards: Sangeet Natak Akademi
+   - Active: 1980s-present
+
+2. **Phoolbasan Baa (Padma Shri Phoolbasan Yadav)** (Jhumair folk)
+   - Genre: Jhumair, Paika folk dances
+   - Awards: Padma Shri 2023
+   - Active: 1960s-present
+
+---
+
+### **HIMACHAL PRADESH**
+**Folk:**
+1. **Mohd. Iqbal** (Himachali folk)
+   - Genre: Himachali folk songs
+   - Active: 1980s-present
+
+2. **Kuldeep Sharma** (Folk singer)
+   - Genre: Himachali traditional music
+   - Active: 1990s-present
+
+---
+
+### **UTTARAKHAND**
+**Folk/Devotional:**
+1. **Narendra Singh Negi** (Folk legend)
+   - Genre: Garhwali folk songs
+   - Active: 1970s-present
+   - Legacy: Voice of Garhwal
+
+2. **Jitendra Tomkyal** (Contemporary folk)
+   - Genre: Kumaoni folk
+   - Active: 1990s-present
+
+3. **Gopal Babu Goswami** (Garhwali folk)
+   - Genre: Traditional Garhwali music
+   - Active: 1960s-2010s
+
+---
+
+### **MEGHALAYA**
+**Folk/Christian:**
+1. **Lou Majaw** (Bob Dylan of India)
+   - Genre: Rock, folk fusion
+   - Famous: Annual Bob Dylan tribute
+   - Active: 1960s-present
+
+2. **Raphael Warjri** (Khasi folk researcher)
+   - Genre: Traditional Khasi music
+   - Work: Documenting Khasi musical heritage
+   - Active: 1980s-present
+
+---
+
+### **MIZORAM**
+**Folk/Gospel:**
+1. **Vanlalrema Sailo** (Traditional Mizo folk)
+   - Genre: Mizo traditional songs
+   - Active: 1970s-present
+
+2. **Mizo Gospel Choir** (Contemporary gospel)
+   - Genre: Mizo gospel with traditional elements
+   - Active: 2000s-present
+
+---
+
+### **ARUNACHAL PRADESH**
+**Tribal:**
+1. **Oyang Taki** (Adi tribal music)
+   - Genre: Traditional Adi tribe music
+   - Work: Cultural preservation
+   - Active: 2000s-present
+
+---
+
+### **SIKKIM**
+**Folk:**
+1. **Danny Denzongpa** (Actor/singer)
+   - Genre: Sikkimese/Nepali folk songs
+   - Active: 1970s-present
+
+---
+
+### **HARYANA**
+**Folk:**
+1. **Pandit Lakhmi Chand** (Saang tradition - deceased 1945)
+   - Genre: Haryanvi folk theatre (Saang)
+   - Legacy: Father of Haryanvi theatre
+
+2. **Mamta Sharma** (Contemporary folk)
+   - Genre: Haryanvi folk songs
+   - Active: 2000s-present
+
+---
+
+### **MADHYA PRADESH**
+**Folk:**
+1. **Teejan Bai** (Also from MP/CG border - Pandavani)
+   - See Chhattisgarh section
+
+2. **Pt. Kumar Gandharva** (Hindustani classical - deceased 1992)
+   - Genre: Hindustani classical
+   - Base: Dewas, MP
+   - Awards: Padma Bhushan
+
+---
+
+### **UNION TERRITORIES**
+
+**PUDUCHERRY:**
+- French-Tamil fusion artists
+- Carnatic classical presence
+
+**CHANDIGARH:**
+- Punjab-Haryana cultural crossroads
+
+**ANDAMAN & NICOBAR:**
+- Tribal music of indigenous communities
+
+**LAKSHADWEEP:**
+- Lava dance music traditions
+
+---
+
+## UI/UX IMPLEMENTATION DETAILS:
+
+### ARTIST CARD DESIGN:
+```
+[Artist Photo - High Quality]
+---------------------------------
+NAME in bold, large font
+Birth-Death Years | State
+---------------------------------
+🎵 Primary Genre
+🎤 Gharana/Community (if applicable)
+🏆 Major Awards (icons)
+---------------------------------
+[Short Bio - 2-3 lines]
+---------------------------------
+🎧 Listen Now | 📖 Read More
+🔗 Social Media Icons (verified only)
+```
+
+### FILTERING OPTIONS:
+- **By State:** Dropdown with all 28 states + 8 UTs
+- **By Genre:** Folk, Classical, Devotional, Tribal, Contemporary, Fusion
+- **By Instrument:** Vocals, String, Percussion, Wind, Unique
+- **By Status:** Living, Historical (deceased)
+- **By Language:** Hindi, Telugu, Tamil, Gujarati, Punjabi, Bengali, etc.
+- **By Award:** Padma recipients, Sangeet Natak Akademi, Grammy
+- **By Community:** Hereditary (Manganiyar, Langa, Baul, etc.) vs. Learned
+
+### SPECIAL FEATURES:
+1. **"Near Me" Function:**
+   - Detect user location
+   - Show artists from their state
+   - "Discover Local Musical Heritage"
+
+2. **Timeline View:**
+   - Horizontal timeline showing active periods
+   - Visual era comparison (1940s-present)
+   - Filter by decade
+
+3. **Network Graph:**
+   - Show guru-shishya (teacher-student) relationships
+   - Gharana connections
+   - Collaborations between artists
+
+4. **Audio Comparison:**
+   - "Compare Voices" feature
+   - Select 2 artists, play side-by-side
+   - Highlight stylistic differences
+
+5. **Community Spotlights:**
+   - Dedicated pages for hereditary communities
+   - Manganiyar heritage page
+   - Baul tradition page
+   - Devadasi history (sensitively presented)
+
+6. **"Hidden Gems" Section:**
+   - Lesser-known traditional artists
+   - Village-level performers
+   - "Support Traditional Artists" donation links
+
+### DATA STRUCTURE (TypeScript Interface):
+```typescript
+interface Artist {
+  id: string;
+  name: string;
+  nameLocal?: string; // In native script
+  birthYear?: number;
+  deathYear?: number;
+  state: string;
+  community?: string;
+  gharana?: string;
+  genres: string[];
+  instruments: string[];
+  languages: string[];
+  awards: Award[];
+  biography: string;
+  notableWorks: string[];
+  audioSamples: AudioSample[];
+  images: {
+    profile: string;
+    performance?: string[];
+    historical?: string[];
+  };
+  socialMedia?: {
+    spotify?: string;
+    youtube?: string;
+    instagram?: string;
+    website?: string;
+  };
+  status: 'living' | 'deceased';
+  hereditaryTradition: boolean;
+  activeYears: string; // "1970s-present"
+  relatedArtists?: string[]; // IDs of related artists
+  culturalContext?: string; // Detailed background
+  modernChallenges?: string; // Current issues facing tradition
+}
+
+interface Award {
+  name: string;
+  year: number;
+  category?: string;
+}
+
+interface AudioSample {
+  title: string;
+  url: string;
+  duration: string;
+  description: string;
+  genre: string;
+}
+```
+
+### RESPONSIVE DESIGN:
+- **Mobile:** Single column cards
+- **Tablet:** 2-column grid
+- **Desktop:** 3-4 column masonry layout
+- **Large screens:** 5-column with side filters
+
+### ACCESSIBILITY:
+- Screen reader compatible
+- Alt text for all images
+- Keyboard navigation
+- Audio transcripts where available
+- Multiple language support (UI in English, Hindi, regional)
+
+### PERFORMANCE:
+- Lazy loading images
+- Virtual scrolling for long lists
+- Audio streaming (not full download)
+- CDN for media files
+- Cached API responses
+
+---
+
+## PRIORITY IMPLEMENTATION:
+**Phase 1 (Core 6 States - MANDATORY):**
+1. ✅ Telangana (10+ artists)
+2. ✅ Gujarat (10+ artists)
+3. ✅ Rajasthan (10+ artists)
+4. ✅ Delhi/NCR (8+ artists)
+5. ✅ Punjab (8+ artists)
+6. ✅ Uttar Pradesh (8+ artists)
+
+**Phase 2 (Major States):**
+7-15. West Bengal, Maharashtra, Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Assam, Odisha, MP
+
+**Phase 3 (North-East & Hill States):**
+16-23. Manipur, Nagaland, Meghalaya, Mizoram, Tripura, Arunachal Pradesh, Sikkim, Himachal Pradesh, Uttarakhand
+
+**Phase 4 (Remaining States & UTs):**
+24-36. Haryana, Chhattisgarh, Jharkhand, Goa, J&K, and all Union Territories
+
+---
+
+## AUTHENTICITY & ETHICS:
+- **Verify all information** from multiple sources
+- **Respect cultural sensitivities** around caste/community
+- **Avoid Bollywood bias** - prioritize traditional artists
+- **Include women artists** prominently
+- **Acknowledge struggles** - economic hardship, loss of patronage
+- **Link to support** - ways to attend concerts, buy music, donate
+- **Credit sources** - photographer credits, recording labels
+- **Update regularly** - new artists, obituaries, awards
+
+---
+
+## CONTENT SOURCING:
+- **Sangeet Natak Akademi** archives
+- **Padma Awards** official lists
+- **YouTube channels:** Darbar Festival, Spic Macay, Folk Studios
+- **Wikimedia Commons** for images
+- **Artist websites** and verified social media
+- **Documentary films** on regional music
+- **Academic ethnomusicology papers**
+- **Regional Sahitya/Sangeet Akademis** (state-level)
+
+
+
+Asset Collection & Curation (Prerequisite)
+Before any code is written, a comprehensive library of high-quality, properly licensed media must be acquired.
+
+1. Sourcing Guidelines
+
+Primary Sources:
+
+Images: Google Images (use Tools > Usage Rights > "Creative Commons licenses"), Wikipedia, Wikimedia Commons.
+
+Audio & Video: YouTube (filter by "Creative Commons"), Archive.org, Freesound.org (for ambient sounds).
+
+Attribution (Critical):
+
+Create a central ATTRIBUTIONS.md file.
+
+For every single file (audio, image, video) you download or link to, log its name, the direct source URL, the author/creator, and its specific license (e.g., "CC BY-SA 4.0").
+
+2. Required Audio Assets
+
+Ambient Sounds: 1-2 minute seamless loops (MP3/OGG).
+
+Examples: desert_wind_loop.mp3, river_flowing.mp3, temple_bells_distant.mp3, village_ambience.mp3.
+
+Isolated Instrument Tracks: Clean, high-quality recordings (WAV/MP3). These are crucial for the mixer and demonstrations.
+
+Examples: sitar_solo.wav, tabla_isolated_beat.wav, kamaycha_phrase.mp3, algoza_loop.mp3, dholak_track.wav.
+
+Full Ensemble Recordings: Complete folk, classical, or ritual songs.
+
+Examples: rajasthani_folk_ensemble.mp3, baul_song.mp3, carnatic_trio.mp3.
+
+Multi-tracks (Stems): If possible, find "stems" (separate tracks for each instrument in an ensemble). This is the ideal for the "Remix" feature. If not, you will simulate it by layering the isolated tracks.
+
+3. Required Visual Assets
+
+Landscape & Parallax: High-resolution images that can be layered.
+
+Examples: Photos of mountains, deserts (e.g., "Thar Desert"), rivers (e.g., "Ganges"), rice paddies, temple architecture.
+
+Instrument Galleries:
+
+High-Res Photos: Clear shots of each instrument (e.g., sitar_full_body.jpg).
+
+Close-Ups: Details of materials (e.g., tabla_skin_texture.jpg, sitar_carving.jpg).
+
+360° Photos/Multiple Angles: Acquire photos from the front, back, side, and top of each key instrument.
+
+Cultural & Contextual Galleries:
+
+Festivals: diwali_celebration.jpg, bihu_dance.jpg, navratri_garba.jpg.
+
+Costumes: High-res photos of traditional attire (e.g., kathakali_makeup.jpg).
+
+Performance Context: musicians_in_courtyard.jpg, temple_performance.jpg.
+
+Archival: Black & white or vintage photos of musicians.
+
+4. Required Video Assets (Links & Attributions)
+
+Performance Videos: Embeddable YouTube/Vimeo links (filtered for Creative Commons).
+
+Instrument Construction: "How it's made" videos (e.g., "sitar making," "how a tabla is made").
+
+5. File Organization Create a logical directory structure to store the downloaded assets.
+
+/public/assets/
+├── audio/
+│   ├── ambient/
+│   ├── instruments/
+│   └── ensembles/
+├── images/
+│   ├── landscapes/
+│   ├── instruments/
+│   ├── cultural/
+│   └── archival/
+└── ATTRIBUTIONS.md
+Phase 2: Feature Implementation
+Once the assets from Phase 1 are collected and organized, development can begin on the following features.
+
+1. AUDIO LAYER SYSTEM
+
+Background ambient sounds: Clicking on a region starts subtle ambient audio (e.g., desert wind for Rajasthan, river sounds for Bengal) from the audio/ambient/ directory.
+
+Instrument demonstrations: Isolated tracks for each instrument (from audio/instruments/).
+
+Full ensemble recordings: Complete performances (from audio/ensembles/).
+
+A/B comparison player: Allow users to select and compare two regions' core sounds side-by-side.
+
+2. VISUAL ENHANCEMENTS
+
+Hero section: Full-screen animated map with particles/connections.
+
+Parallax scrolling: Use the images/landscapes/ assets to create layered scrolling effects (mountains, rivers, deserts).
+
+Image galleries: High-res photo galleries using assets from images/instruments/ and images/cultural/.
+
+Video integration: Embed performance and construction videos (from the curated link list).
+
+360° photos: Use the multi-angle instrument photos to create an interactive viewer.
+
+3. INTERACTIVE AUDIO FEATURES
+
+Waveform visualizations: Use Wavesurfer.js to draw waveforms for all playing audio.
+
+Spectrogram view: Toggleable view to show frequency patterns.
+
+"Remix" feature: Allow adjustment of volumes for different isolated instruments to simulate an ensemble (critical for "Soundscape Mixer").
+
+Looping sections: Allow users to select and loop a part of a waveform for focused listening.
+
+Slow-down/speed-up: Playback speed control without pitch change.
+
+Annotations: Clickable markers on the waveform to highlight specific musical phrases (e.g., "Tihai," "Main melody").
+
+4. CULTURAL IMAGERY
+
+Festival photo carousels: Use assets from images/cultural/ (Diwali, Bihu, Navratri).
+
+Traditional costume galleries: Showcase regional attire.
+
+Instrument close-ups: Use the high-res material/texture shots.
+
+Performance context photos: (temples, courtyards, stages).
+
+Historical archival photos: Use images/archival/ assets.
+
+5. SOUNDSCAPE MIXER
+
+Allow users to create custom soundscapes by layering audio.
+
+Process: Select a region (loads ambient sound) → add instruments (loads isolated tracks from audio/instruments/) → adjust individual volumes.
+
+Example: "Create a Rajasthani ensemble" (kamaycha + dholak + algoza).
+
+Features: Save and share custom mixes.
+
+Presets: "Classical Concert," "Folk Festival," "Temple Ritual."
+
+6. ACCESSIBILITY
+
+Text descriptions: For all audio ("melancholic Baul song about spiritual longing").
+
+Visual representations of rhythm: Animated beat circles for key rhythms.
+
+Closed captions: For all video content.
+
+High contrast mode: For visually impaired users.
+
+Phase 3: Technical Stack & Implementation
+Audio Visualization: Wavesurfer.js
+
+Audio Playback: Howler.js (for managing multiple audio layers, ambient sounds, and mixer).
+
+Video: React Player (for YouTube/Vimeo embeds).
+
+Animation: Framer Motion (for smooth transitions, parallax, and map animations).
+
+Performance: Lazy loading for all media assets (images, audio files) to ensure fast initial load.
+
+
+
+Create a "Regional Musical News" section that displays latest updates about Indian regional music:
+
+1. NEWS CATEGORIES:
+   - Festival Announcements (state-wise music festivals)
+   - New Recordings/Releases (regional artists)
+   - Awards & Recognition (Padma awards, Sangeet Natak Akademi)
+   - Concerts & Events (classical/folk concerts)
+   - Obituaries (legendary artists passing)
+   - Government Initiatives (cultural preservation programs)
+   - Documentary Releases (music-related films)
+
+2. DATA SOURCES (fetch via APIs or RSS):
+   - Sangeet Natak Akademi (official govt. cultural body) - sangeetnatak.gov.in
+   - Ministry of Culture press releases
+   - Regional cultural departments
+   - Music Sabhas (Chennai Music Academy, Delhi Gharana sites)
+   - Cultural festivals: Hornbill Festival (Nagaland), Sawai Gandharva (Pune), Dover Lane (Kolkata)
+   - YouTube channels: Darbar Festival, Spic Macay
+
+3. NEWS ITEM STRUCTURE:
+   - Title with region tag
+   - Date
+   - Category badge
+   - Summary (2-3 sentences)
+   - Link to full article/source
+   - Related region highlighted on map
+   - Related artist profiles linked
+
+4. UI DESIGN:
+   - Card-based layout, Pinterest-style masonry grid
+   - Color-coded by region (match map colors)
+   - Filter by: Region, Category, Date Range
+   - "Trending" section for most viewed
+   - RSS feed subscription option
+
+5. SAMPLE STATIC CONTENT (to populate initially):
+   - "Nongkrem Dance Festival 2025: Meghalaya celebrates traditional Khasi music" (Nov 2024)
+   - "Bismillah Khan's legacy: New documentary on Shehnai tradition" (Oct 2024)
+   - "Chennai December Season 2024: 100+ Carnatic concerts scheduled"
+   - "Rajasthan's Langa musicians perform at WOMEX Europe"
+   - "Sangeet Natak Akademi Awards 2024 announced: Honours for folk artists"
+
+6. FUTURE INTEGRATION:
+   - RSS parser for automated updates (if doing manually, create admin panel)
+   - User submissions (community-sourced news)
+   - Comment section for discussions
+   - "Save for later" bookmarking
+
+TECHNICAL STACK:
+- Create news.ts data file (TypeScript)
+- Fetch from RSS feeds using rss-parser library
+- Use React Query for caching
+- Implement pagination (infinite scroll or traditional)
+- Add sharing buttons (Twitter, WhatsApp, Email)
+
+
+Create an interactive SVG map of India with accurate state boundaries and the following features:
+
+1. MAP ACCURACY:
+   - Use actual GeoJSON data for India states/UTs (fetch from datameet or natural earth datasets)
+   - Render proper polygons for each state, not circles/ellipses
+   - Include proper borders: international borders, state boundaries, and disputed territories marked appropriately
+   - Show neighboring countries (Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar, Sri Lanka) in lighter shade
+
+2. MUSICAL REGION HIGHLIGHTING:
+   - Color-code 20+ musical regions across India (not just 10)
+   - Interactive hover: show region name, primary instruments, key genres
+   - Click: open detailed modal with music info
+   - Add musical classification filters: Hindustani Zone, Carnatic Zone, Tribal Zones, Folk Regions
+
+3. DUAL FILTER SYSTEM:
+   - Carnatic vs Hindustani toggle: highlight states by classical tradition influence
+   - When "Carnatic" selected: highlight Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana in warm colors
+   - When "Hindustani" selected: highlight North/Central states in cool colors
+   - Show overlap/synthesis zones (Maharashtra, Odisha)
+
+4. INSTRUMENT FAMILY VISUALIZATION:
+   - Add icons for instrument families: strings, percussion, wind, unique regional
+   - Hovering over instrument type highlights all states using that family
+   - Create visual density map showing "instrument diversity" per region
+
+5. ANIMATIONS:
+   - Smooth zoom into selected state
+   - Fade transitions between filter views
+   - Pulsing animation for states with audio samples available
+
+TECHNICAL REQUIREMENTS:
+- Use D3.js v7 for map rendering
+- Implement proper projection (Mercator or India-specific)
+- Add zoom/pan controls
+- Make fully responsive (mobile/tablet/desktop)
+- Include map legend with visual hierarchy
+
+DATA TO INTEGRATE:
+- Use the existing regions.ts data
+- Add new regions for: Goa, Gujarat, Uttar Pradesh, Odisha, Uttarakhand, Himachal Pradesh, Arunachal Pradesh, Mizoram, Tripura, Sikkim
+
+
+Integrate ethnomusicology concepts from your coursework into the website as educational overlays:
+
+1. ALAN MERRIAM'S TRIPARTITE MODEL:
+   Create an educational section explaining music through:
+   - SOUND: Musical structure (raga, tala, instruments)
+   - BEHAVIOR: Performance contexts (rituals, festivals, social functions)
+   - CONCEPT: Cultural beliefs (cosmology, caste, gender dynamics)
+
+   Implementation:
+   - Add three toggle buttons on each region's page
+   - "Sound Analysis" → show musical notation, audio waveforms, instrument diagrams
+   - "Performance Context" → show photos/videos of festivals, rituals
+   - "Cultural Concepts" → explain social structures, patronage systems, religious connections
+
+2. GEOGRAPHY-MUSIC CAUSATION MAPS:
+   Create visual diagrams showing:
+   - "Terrain → Materials → Instruments" flowchart (bamboo forests → bamboo instruments)
+   - "Climate → Agricultural Cycles → Festival Music" timeline
+   - "Trade Routes → Instrumental Exchange" map (Silk Road → Santoor)
+   - "Historical Events → Musical Synthesis" timeline (Mughal rule → Sitar development)
+
+3. COMPARATIVE ANALYSIS TABLES:
+   Add interactive comparison tables:
+   - "Hindustani vs Carnatic: 12 Key Differences" (side-by-side comparison)
+   - "Folk Rhythm Systems Across India" (beat patterns visualized)
+   - "Scale Systems: Pentatonic vs Heptatonic Regions" (map overlay)
+   - "Vocal Techniques: Regional Timbre Preferences" (audio examples)
+
+4. TIMELINE FEATURE:
+   Create an interactive timeline showing:
+   - Ancient (Vedic music, Sangam literature)
+   - Medieval (Bhakti movement, Sufi arrival, Persian synthesis)
+   - Colonial (Harmonium introduction, Western influence)
+   - Modern (Revival movements, Bollywood impact, diaspora)
+
+5. GLOSSARY POPUP:
+   Add tooltip definitions for technical terms:
+   - Hover over "raga" → show definition + audio example
+   - Hover over "tala" → show definition + visual beat cycle
+   - Hover over "gamaka" → show definition + audio example
+   - Include terms: alap, kriti, tala, raga, sruti, gharana, melakarta
+
+6. EDUCATIONAL QUIZZES:
+   - "Guess the Region" (play audio clip, user selects region on map)
+   - "Instrument Identification" (show photo, multiple choice)
+   - "Match the Artist to Region"
+   - "Timeline Quiz" (when did X happen?)
+
+TECHNICAL IMPLEMENTATION:
+- Create concepts.tsx component with tabs
+- Add educational modals with rich media
+- Include diagrams using Mermaid.js or D3.js
+- Add quiz component with scoring
+- Create glossary.json with all terms
+
+
+Transform the website into an immersive multimedia experience:
+
+1. AUDIO LAYER SYSTEM:
+   - Background ambient sounds: clicking on a region starts subtle ambient audio (e.g., desert wind for Rajasthan, river sounds for Bengal)
+   - Instrument demonstrations: isolated tracks for each instrument
+   - Full ensemble recordings: complete performances
+   - A/B comparison player: compare two regions side-by-side
+
+2. VISUAL ENHANCEMENTS:
+   - Hero section: full-screen animated map with particles/connections
+   - Parallax scrolling: layers of mountains/rivers/deserts
+   - Image galleries: high-res photos of instruments, performances, landscapes
+   - Video integration: embedded performance videos (YouTube/Vimeo)
+   - 360° photos: instruments from all angles
+   - Instrument construction videos: how instruments are made
+
+3. INTERACTIVE AUDIO FEATURES:
+   - Waveform visualizations (use Wavesurfer.js)
+   - Spectrogram view showing frequency patterns
+   - "Remix" feature: adjust volume of different instruments in ensemble
+   - Looping sections for focused listening
+   - Slow-down/speed-up without pitch change
+   - Annotations: mark specific musical phrases with descriptions
+
+4. CULTURAL IMAGERY:
+   - Festival photo carousels (Diwali, Bihu, Navratri)
+   - Traditional costume galleries
+   - Instrument close-ups with material details
+   - Performance context photos (temples, courtyards, stages)
+   - Historical archival photos (black & white vintage recordings)
+
+5. SOUNDSCAPE MIXER:
+   Allow users to create custom soundscapes:
+   - Select region → add instruments → adjust volumes
+   - Example: "Create a Rajasthani ensemble" (kamaycha + dholak + algoza)
+   - Save and share custom mixes
+   - Preset templates: "Classical Concert," "Folk Festival," "Temple Ritual"
+
+6. ACCESSIBILITY:
+   - Text descriptions for all audio ("melancholic Baul song about spiritual longing")
+   - Visual representations of rhythm (animated beat circles)
+   - Closed captions for video content
+   - High contrast mode for visually impaired
+
+MEDIA TO COLLECT:
+- Source from: Wikimedia Commons, YouTube Creative Commons, Archive.org
+- Attribution properly displayed
+- Create images/README.md with sourcing instructions
+
+TECHNICAL STACK:
+- Wavesurfer.js for audio visualization
+- Howler.js (already used) for playback control
+- React Player for video
+- Framer Motion for smooth animations
+- Lazy loading for all media
+
+
+Add a "Social & Cultural Context" section addressing caste, gender, patronage systems:
+
+1. MUSICIAN COMMUNITIES DATABASE:
+   For each region, document:
+   - Hereditary musician castes (Manganiyar, Langa, Mahar, Kolhati, etc.)
+   - Patronage systems (Jajmani, temple endowments, court sponsorship)
+   - Gender roles (women's domestic music, Devadasi history, Lavani performers)
+   - Modern challenges (economic precarity, loss of patronage)
+
+2. SENSITIVE PRESENTATION:
+   - Use respectful, academic language
+   - Acknowledge historical discrimination
+   - Highlight resilience and cultural pride
+   - Include first-person accounts (quotes from artists)
+
+3. CASE STUDIES:
+   - "Devadasi to Dancer: The Transformation of South Indian Temple Music"
+   - "Manganiyar Musicians: From Jajmani to World Music Stages"
+   - "Women in Lavani: Reclaiming an Art Form"
+   - "Bauls: Outside the Caste System"
+
+4. GENDER DYNAMICS VISUALIZATION:
+   - Timeline showing women's participation over centuries
+   - Map showing regions with female-dominated traditions (Manipur Ras Lila, Lavani)
+   - Comparison: male vs female opportunities in different regions
+
+5. ECONOMIC REALITIES:
+   - Infographics: average income of traditional vs. Bollywood musicians
+   - Government schemes for artist welfare (links)
+   - Crowdfunding campaigns for struggling artists
+
+6. MODERN MOVEMENTS:
+   - Revival initiatives (Spic Macay, Sangeet Natak Akademi)
+   - NGOs supporting traditional musicians
+   - Digital platforms democratizing access (Darbar, YouTube)
+
+ETHICAL CONSIDERATIONS:
+- Consult sensitivity readers from relevant communities
+- Avoid romanticization or stereotyping
+- Acknowledge complexity and change over time
+- Link to resources for supporting artists
+
+Redesign the entire website for optimal mobile experience:
+
+1. MOBILE MAP INTERACTION:
+   - Touch-friendly: large tap targets (min 44x44 pixels)
+   - Swipe gestures: swipe left/right between regions
+   - Pinch-to-zoom on map
+   - Bottom sheet modals (slide up from bottom)
+   - Floating action button for quick filters
+
+2. PROGRESSIVE DISCLOSURE:
+   - Accordion sections (tap to expand)
+   - "Read More" truncation for long text
+   - Tabbed navigation within regions
+   - Collapsible filters
+
+3. PERFORMANCE OPTIMIZATION:
+   - Image optimization: WebP format with fallbacks
+   - Lazy loading: only load visible content
+   - Code splitting: separate bundles per route
+   - Service worker for offline capability
+   - Compression: Gzip/Brotli
+   - CDN delivery for static assets
+
+4. TOUCH INTERACTIONS:
+   - Long press for tooltips
+   - Double tap for quick actions
+   - Swipe to dismiss modals
+   - Pull-to-refresh for news section
+
+5. MOBILE-SPECIFIC FEATURES:
+   - Location detection: "Find music near you"
+   - Share button for WhatsApp, Twitter, Instagram
+   - Install as PWA (Progressive Web App)
+   - Offline mode: cached content accessible
+   - Dark mode toggle
+
+6. NAVIGATION:
+   - Bottom tab bar (Home, Map, Artists, News, About)
+   - Hamburger menu for secondary items
+   - Breadcrumb navigation
+   - Back button in headers
+
+TESTING CHECKLIST:
+- Test on iOS Safari, Chrome Android
+- Verify touch target sizes
+- Check load time (<3 seconds on 3G)
+- Lighthouse score >90
+
+
+Create an analytics/statistics dashboard showing musical diversity metrics:
+
+1. KEY METRICS:
+   - Total regions covered: 20+
+   - Total instruments documented: 150+
+   - Languages represented: 30+
+   - Artists profiled: 50+
+   - Audio samples: 100+
+   - Traditions documented: 200+
+
+2. INTERACTIVE CHARTS:
+   - Pie chart: Instrument families distribution (strings 30%, percussion 40%, wind 20%, unique 10%)
+   - Bar chart: Number of distinct musical traditions per region
+   - Timeline: Historical evolution of instruments (when introduced)
+   - Network graph: Cultural exchange routes (trade/migration)
+   - Heatmap: Musical complexity score by region (based on tala complexity, raga count, etc.)
+
+3. COMPARATIVE VISUALIZATIONS:
+   - Tempo spectrum: BPM ranges across regions (bar chart)
+   - Scale types: Pentatonic vs Heptatonic distribution (map overlay)
+   - Vocal techniques: Nasal vs Open throat regions (Venn diagram)
+   - Ornamentation density: Meend usage percentage (scatter plot)
+
+4. GEOGRAPHIC DATA:
+   - Terrain types and music correlation (desert → portable instruments)
+   - Altitude and musical characteristics
+   - Language families and scale systems
+   - Trade routes and instrument exchange
+
+5. EXPORT FEATURES:
+   - Download charts as PNG/PDF
+   - Export data as CSV
+   - Share specific visualizations on social media
+
+TOOLS:
+- Chart.js or Recharts for graphs
+- D3.js for custom visualizations
+- Plotly for interactive charts
+
+
+Implement sophisticated search functionality:
+
+1. MULTI-FACETED SEARCH:
+   - Text search: names, instruments, genres
+   - Filter by: Region, Instrument Type, Time Period, Genre, Language
+   - Advanced filters: Tempo Range, Scale Type, Vocal Style, Social Context
+
+2. SMART SUGGESTIONS:
+   - "If you like Rajasthani Maand, try Kashmiri Sufiana Kalam" (similarity-based)
+   - "Explore similar instruments" (Ektara → Dotara → Tumbi)
+   - "Discover this region's lesser-known traditions"
+
+3. TAG SYSTEM:
+   - Tags for every entity: #devotional, #harvest, #courtly, #folk, #tribal
+   - Click tag → see all matching content
+   - Tag cloud visualization
+
+4. SEARCH RESULTS PAGE:
+   - Grid/list toggle
+   - Sort by: Relevance, Popularity, Date Added, Alphabetical
+   - Preview on hover
+   - "Related searches" suggestions
+
+5. SAVED SEARCHES & BOOKMARKS:
+   - Save favorite regions/artists
+   - Create custom collections
+   - Export bookmarks
+   - Share collections with friends
+
+6. VOICE SEARCH:
+   - "Show me Punjabi harvest music"
+   - "Find instruments made from bamboo"

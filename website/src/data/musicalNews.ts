@@ -1,0 +1,296 @@
+// Musical News and Events Database
+// Updated regularly with festivals, concerts, awards, and cultural events
+
+import type { MusicalNews } from '../types/music';
+
+export const musicalNewsData: MusicalNews[] = [
+  // ==================== FESTIVALS ====================
+  {
+    id: 'navratri-2025-gujarat',
+    title: 'Navratri Festival 2025',
+    category: 'festival',
+    region: 'gujarat',
+    date: '2025-10-03',
+    endDate: '2025-10-11',
+    description: 'Nine nights of traditional Garba and Dandiya celebrations across Gujarat. Featuring renowned artists like Kirtidan Gadhvi, Geeta Rabari, and Osman Mir performing at major venues.',
+    venue: 'Multiple venues across Gujarat',
+    city: 'Ahmedabad, Vadodara, Surat',
+    artists: ['Kirtidan Gadhvi', 'Geeta Rabari', 'Osman Mir'],
+    tags: ['garba', 'dandiya', 'traditional', 'dance'],
+    featured: true,
+    imageUrl: '/images/events/navratri.jpg'
+  },
+  {
+    id: 'rongali-bihu-2025',
+    title: 'Rongali Bihu Festival',
+    category: 'festival',
+    region: 'assam',
+    date: '2025-04-14',
+    endDate: '2025-04-20',
+    description: 'Assamese New Year celebration with traditional Bihu songs and dances. Week-long festivities featuring Zubeen Garg, Papon, and traditional Bihu troupes.',
+    venue: 'Sarusajai Stadium & community venues',
+    city: 'Guwahati',
+    artists: ['Zubeen Garg', 'Papon'],
+    tags: ['bihu', 'harvest', 'assamese new year'],
+    featured: true
+  },
+  {
+    id: 'thrissur-pooram-2025',
+    title: 'Thrissur Pooram',
+    category: 'festival',
+    region: 'kerala',
+    date: '2025-04-21',
+    description: 'Kerala\'s most spectacular temple festival with Panchavadyam ensembles, fireworks, and traditional percussion. Featuring renowned Chenda melam performances.',
+    venue: 'Vadakkunnathan Temple',
+    city: 'Thrissur',
+    tags: ['temple', 'percussion', 'chenda melam', 'panchavadyam'],
+    featured: true
+  },
+  {
+    id: 'rajasthan-folk-fest-2026',
+    title: 'Rajasthan International Folk Festival (RIFF)',
+    category: 'festival',
+    region: 'rajasthan',
+    date: '2025-10-24',
+    endDate: '2025-10-28',
+    description: 'Annual celebration of folk music at Mehrangarh Fort. Featuring Manganiyar and Langa musicians, with international collaborations.',
+    venue: 'Mehrangarh Fort',
+    city: 'Jodhpur',
+    artists: ['Mame Khan', 'Sawan Khan Manganiyar', 'Lakha Khan'],
+    organizer: 'Jodhpur RIFF Society',
+    ticketUrl: 'https://www.jodhpurriff.org',
+    tags: ['folk', 'international', 'manganiyar', 'langa'],
+    featured: true
+  },
+  {
+    id: 'konark-dance-fest-2025',
+    title: 'Konark Dance & Music Festival',
+    category: 'festival',
+    region: 'odisha',
+    date: '2025-12-01',
+    endDate: '2025-12-05',
+    description: 'Classical dance and Odissi music festival against the backdrop of the Sun Temple. Features Odissi dance-drama with live music.',
+    venue: 'Konark Sun Temple',
+    city: 'Konark',
+    tags: ['odissi', 'classical', 'dance-music', 'heritage'],
+    featured: true
+  },
+
+  // ==================== CONCERTS ====================
+  {
+    id: 'zakir-hussain-tabla-2025',
+    title: 'Ustad Zakir Hussain - Tabla Solo Concert',
+    category: 'concert',
+    region: 'uttarpradesh',
+    date: '2025-11-25',
+    description: 'Legendary tabla maestro Ustad Zakir Hussain performs classical solo recital. A rare opportunity to witness the Grammy-winning percussionist.',
+    venue: 'Kamani Auditorium',
+    city: 'New Delhi',
+    artists: ['Ustad Zakir Hussain'],
+    ticketUrl: 'https://insider.in',
+    tags: ['tabla', 'hindustani classical', 'percussion'],
+    featured: true
+  },
+  {
+    id: 'tm-krishna-carnatic-2025',
+    title: 'T.M. Krishna Carnatic Vocal Concert',
+    category: 'concert',
+    region: 'tamilnadu',
+    date: '2025-12-15',
+    description: 'Acclaimed Carnatic vocalist T.M. Krishna performs at the prestigious December music season in Chennai.',
+    venue: 'Music Academy',
+    city: 'Chennai',
+    artists: ['T.M. Krishna'],
+    tags: ['carnatic', 'classical', 'vocal', 'december season'],
+    featured: true
+  },
+  {
+    id: 'papon-assam-tour-2025',
+    title: 'Papon - Homecoming Concert Tour',
+    category: 'concert',
+    region: 'assam',
+    date: '2025-12-20',
+    description: 'Papon returns to Assam with a special concert featuring his Assamese folk fusion repertoire and Bollywood hits.',
+    venue: 'Srimanta Sankaradeva Kalakshetra',
+    city: 'Guwahati',
+    artists: ['Papon'],
+    ticketUrl: 'https://bookmyshow.com',
+    tags: ['folk fusion', 'contemporary', 'assamese'],
+    featured: false
+  },
+  {
+    id: 'remo-fernandes-goa-2025',
+    title: 'Remo Fernandes Live in Goa',
+    category: 'concert',
+    region: 'goa',
+    date: '2025-12-31',
+    description: 'New Year\'s Eve special concert by Goan pop legend Remo Fernandes. Celebrating Goan music and culture.',
+    venue: 'Clube Nacional',
+    city: 'Panaji',
+    artists: ['Remo Fernandes'],
+    tags: ['goan pop', 'new year', 'celebration'],
+    featured: false
+  },
+
+  // ==================== AWARDS ====================
+  {
+    id: 'padma-awards-2025',
+    title: 'Padma Awards 2025 - Music Category',
+    category: 'award',
+    region: 'uttarpradesh',
+    date: '2025-01-25',
+    description: 'Republic Day announcement of Padma Shri, Padma Bhushan, and Padma Vibhushan awards. Several musicians honored for contributions to Indian music.',
+    venue: 'Rashtrapati Bhavan',
+    city: 'New Delhi',
+    tags: ['padma awards', 'national honor', 'recognition'],
+    featured: true
+  },
+  {
+    id: 'sangeet-natak-akademi-2024',
+    title: 'Sangeet Natak Akademi Awards 2024',
+    category: 'award',
+    region: 'uttarpradesh',
+    date: '2025-02-15',
+    description: 'India\'s highest recognition in performing arts announced. Folk and classical musicians from across India honored.',
+    venue: 'Sangeet Natak Akademi',
+    city: 'New Delhi',
+    tags: ['akademi', 'performing arts', 'national award'],
+    featured: true
+  },
+  {
+    id: 'tansen-samaroh-2025',
+    title: 'Tansen Samaroh & Award Ceremony',
+    category: 'award',
+    region: 'madhya-pradesh',
+    date: '2025-11-18',
+    endDate: '2025-11-22',
+    description: 'Annual music festival and award ceremony honoring Tansen\'s legacy. Features Hindustani classical concerts and Tansen Award presentation.',
+    venue: 'Tansen Tomb',
+    city: 'Gwalior',
+    tags: ['hindustani classical', 'heritage', 'award'],
+    featured: false
+  },
+
+  // ==================== CULTURAL EVENTS ====================
+  {
+    id: 'dover-lane-music-conf-2026',
+    title: 'Dover Lane Music Conference',
+    category: 'cultural-event',
+    region: 'bengal',
+    date: '2026-01-23',
+    endDate: '2026-01-27',
+    description: 'Kolkata\'s prestigious all-night music festival featuring top Hindustani classical artists. A 70+ year tradition of presenting maestros.',
+    venue: 'Nazrul Mancha',
+    city: 'Kolkata',
+    tags: ['hindustani classical', 'all-night', 'heritage'],
+    featured: true
+  },
+  {
+    id: 'surajkund-mela-2025',
+    title: 'Surajkund International Crafts Mela - Music Program',
+    category: 'cultural-event',
+    region: 'haryana',
+    date: '2025-02-01',
+    endDate: '2025-02-15',
+    description: 'Folk music performances from across India as part of the annual crafts fair. Daily evening cultural programs featuring regional artists.',
+    venue: 'Surajkund',
+    city: 'Faridabad',
+    tags: ['folk', 'crafts', 'cultural', 'multi-regional'],
+    featured: false
+  },
+  {
+    id: 'hornbill-fest-2025',
+    title: 'Hornbill Festival - Musical Performances',
+    category: 'cultural-event',
+    region: 'nagaland',
+    date: '2025-12-01',
+    endDate: '2025-12-10',
+    description: 'Festival of Festivals showcasing Naga tribal music, dance, and culture. Features traditional songs from all Naga tribes.',
+    venue: 'Naga Heritage Village',
+    city: 'Kohima',
+    artists: ['Tetseo Sisters', 'Various tribal ensembles'],
+    tags: ['tribal', 'naga', 'traditional', 'heritage'],
+    featured: true
+  },
+  {
+    id: 'hampi-utsav-2026',
+    title: 'Hampi Utsav - Music & Dance Festival',
+    category: 'cultural-event',
+    region: 'karnataka',
+    date: '2026-01-15',
+    endDate: '2026-01-17',
+    description: 'Annual festival at the UNESCO World Heritage Site featuring Carnatic music, Yakshagana, and folk performances against historical ruins.',
+    venue: 'Hampi Ruins',
+    city: 'Hampi',
+    tags: ['carnatic', 'yakshagana', 'heritage', 'unesco'],
+    featured: true
+  },
+
+  // ==================== WORKSHOPS ====================
+  {
+    id: 'tabla-workshop-delhi-2025',
+    title: 'Advanced Tabla Workshop',
+    category: 'workshop',
+    region: 'uttarpradesh',
+    date: '2025-11-10',
+    endDate: '2025-11-15',
+    description: 'Intensive tabla workshop covering advanced techniques, compositions, and accompaniment. Led by senior disciples of Ustad Zakir Hussain.',
+    venue: 'ITC Sangeet Research Academy',
+    city: 'New Delhi',
+    tags: ['tabla', 'workshop', 'learning', 'percussion'],
+    featured: false
+  },
+  {
+    id: 'odissi-music-workshop-2025',
+    title: 'Odissi Music Vocal Workshop',
+    category: 'workshop',
+    region: 'odisha',
+    date: '2025-12-05',
+    endDate: '2025-12-12',
+    description: 'Week-long workshop on Odissi vocal music, covering ragas, talas, and traditional compositions. For intermediate to advanced students.',
+    venue: 'Guru Kelu Charan Mohapatra Odissi Nrityabasa',
+    city: 'Bhubaneswar',
+    tags: ['odissi', 'workshop', 'classical', 'vocal'],
+    featured: false
+  },
+  {
+    id: 'folk-instrument-camp-2026',
+    title: 'Northeast Folk Instruments Camp',
+    category: 'workshop',
+    region: 'meghalaya',
+    date: '2026-01-20',
+    endDate: '2026-01-25',
+    description: 'Hands-on camp teaching traditional instruments from Northeast India: bamboo flutes, drums, string instruments. Cultural immersion experience.',
+    venue: 'Cultural Centre',
+    city: 'Shillong',
+    tags: ['folk', 'instruments', 'northeast', 'traditional'],
+    featured: false
+  },
+
+  // ==================== RELEASES ====================
+  {
+    id: 'teejan-bai-album-2025',
+    title: 'New Pandavani Album Release',
+    category: 'release',
+    region: 'chhattisgarh',
+    date: '2025-11-30',
+    description: 'Teejan Bai releases new Pandavani album featuring rare episodes from the Mahabharata. Recorded with traditional accompaniment.',
+    artists: ['Teejan Bai'],
+    tags: ['pandavani', 'folk', 'album', 'mahabharata'],
+    featured: false
+  },
+  {
+    id: 'manipur-pena-revival-2025',
+    title: 'Pena Revival Project Album Launch',
+    category: 'release',
+    region: 'manipur',
+    date: '2025-12-10',
+    description: 'Mohen Naorem launches documentary album showcasing endangered Pena music traditions. Features field recordings and contemporary interpretations.',
+    city: 'Imphal',
+    artists: ['Mohen Naorem'],
+    tags: ['pena', 'revival', 'traditional', 'documentation'],
+    featured: false
+  }
+];
+
+export default musicalNewsData;

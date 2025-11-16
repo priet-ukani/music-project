@@ -1,0 +1,30 @@
+==================================================================
+HOW TO ADD THE INDIA MAP IMAGE
+==================================================================
+
+STEP 1: Save your India map image
+----------------------------------
+Save the colorful India map image (India-Outline-Map-Colourful-1-882x1024.png) 
+that you have as:
+
+  /home/kevin0099/music-project/website/public/images/india-map.png
+
+You can do this by:
+- Right-click on the file and "Save As" to this location
+- Or copy it: cp /path/to/India-Outline-Map-Colourful-1-882x1024.png ./india-map.png
+
+STEP 2: The component will now:
+--------------------------------
+✅ Display the actual India map image as background
+✅ Overlay semi-transparent colored regions on top
+✅ Make states clickable by coloring them when hovered/selected
+✅ Show the proper state boundaries from your reference image
+
+STEP 3: How it works:
+--------------------
+- The image shows the actual India map with proper boundaries
+- SVG paths overlay transparent colors on top of the image
+- When you hover or click, the colored overlay appears
+- This gives you a professional-looking map with accurate boundaries
+
+==================================================================
