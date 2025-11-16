@@ -57,6 +57,138 @@ These three dimensions are inseparable - changes in one affect the others. Under
   },
 
   {
+    id: 'swara-tala-fundamentals',
+    title: 'Fundamentals of Indian Classical Music: Swaras and Tala',
+    category: 'framework',
+    description: 'The foundational elements of Indian music: the seven swaras (notes), their positions, shruti (microtones), and tala (rhythm) systems.',
+    content: `
+**THE SEVEN SWARAS (NOTES):**
+
+Indian classical music is built on seven fundamental swaras:
+
+1. **Sa (Shadja)** - The originating note, "Shuddh Ja" - fixed, achala
+2. **Ri (Rishabha)** - Variable (vikr̥ta)
+3. **Ga (Gandhara)** - Variable (vikr̥ta)
+4. **Ma (Madhyama)** - Variable (vikr̥ta)
+5. **Pa (Panchama)** - Fixed, achala
+6. **Dha (Dhaivata)** - Variable (vikr̥ta)
+7. **Ni (Nishada)** - Variable (vikr̥ta)
+
+**Key Concepts:**
+- **Swarasthan**: Position of a note (12 total positions in an octave)
+- **Shruti**: Smallest audible difference in pitch (22 total shrutis)
+- **Sa and Pa are achala (fixed)**: They don't have variations
+- **Others are vikr̥ta (variable)**: Can have multiple forms (shuddh, komal, tivra)
+
+**THREE OCTAVES:**
+- **Mandra Sthayi**: Lower octave
+- **Madhya Sthayi**: Middle octave (most commonly used)
+- **Tara Sthayi**: Higher octave
+- Also: Ati-tara (extra high) and Ati-mandra (extra low)
+
+**How Swaras Arise:**
+According to classical texts, swaras originate from different parts of the body:
+- Heart, Nose, Mouth, Tongue, Chest, etc.
+
+**TALA SYSTEM (RHYTHM):**
+
+**Five Gatis / Nadais (Rhythmic Subdivisions):**
+1. **Tisra (3 units)** - Triple time
+2. **Chatushra (4 units)** - Most commonly used, quadruple time
+3. **Khanda (5 units)** - Quintuple time
+4. **Misra (7 units)** - Septuple time
+5. **Sankeerna (9 units)** - Nonuple time
+
+**Tempos (Kala):**
+- **Chauka (Vilamba)**: Slow tempo
+- **Madhyama**: Medium tempo
+- **Dhrutam / Dhunita**: Fast tempo
+
+**Tala Notation:**
+- | for bar divisions
+- 0 for drutam
+- l for laghu
+- Claps, waves, finger counts in laghu depend on jathi
+
+**Example from Tyagaraja's "Jagadananda Karaka":**
+- Raga: Nāṭṭai
+- Tala: Adi (8 beats)
+- Structure: Pallavi → Anupallavi → 10 Charanams
+- Demonstrates complex swara patterns and tala divisions
+    `,
+    examples: [
+      'Tyagaraja\'s "Jagadananda Karaka" demonstrates all seven swaras in Raga Nāṭṭai',
+      'Pancharatna Kritis showcase different tala patterns: Adi, Rupak, etc.',
+      'Ragamalika compositions use multiple ragas (Vachaspati, Charukesi, Shankarabharanam) in one piece'
+    ],
+    references: [
+      'Bharata Muni\'s Natya Shastra (200 CE)',
+      'Tyagaraja\'s compositions (1767-1847)',
+      'Carnatic music theory texts'
+    ],
+    relatedRegions: ['tamilnadu', 'karnataka', 'kerala', 'andhra-pradesh']
+  },
+  {
+    id: 'guru-shishya-parampara',
+    title: 'Guru-Shishya Parampara: The Teacher-Student Tradition',
+    category: 'context',
+    description: 'The foundational tradition of oral transmission in Indian classical music, emphasizing the guru\'s role in spiritual and musical learning.',
+    content: `
+**THE GURU-SHISHYA TRADITION:**
+
+The guru-shishya parampara (teacher-student tradition) is the cornerstone of Indian classical music education. This oral transmission method has preserved musical knowledge for millennia.
+
+**Kabir's Teaching:**
+The 15th-century saint Kabir expressed this beautifully in his doha:
+
+*"Guru Gobind Dou Khade..."*
+
+*When both Guru (teacher) and Govind (God) stand before me,*
+*I am unsure whose feet to touch first.*
+*But I choose Guru, because it is he who showed me the path to God.*
+
+**The Guru's Role:**
+As expressed in devotional compositions like "Satguru Tumhare Pyar Ne":
+
+- **Teaches how to live**: Music becomes a way of life, not just performance
+- **Transforms a person**: Develops discipline, humility, and devotion
+- **Gives clarity**: When one is lost, the guru provides direction
+- **Makes one surrender ego**: Essential for true learning
+- **Brings divine intoxication**: "Masti ka jaam pila diya" - the joy of music
+
+**Characteristics of Traditional Learning:**
+
+1. **Oral Transmission**: Knowledge passed directly from guru to shishya
+2. **Living Together**: Traditional students lived with their gurus
+3. **Service (Seva)**: Students served the guru as part of learning
+4. **No Fixed Curriculum**: Learning adapted to student's capacity
+5. **Spiritual Dimension**: Music as spiritual practice, not just art
+
+**Modern Adaptations:**
+- Institutional learning (music schools, universities)
+- Online classes and digital resources
+- Workshops and short-term training
+- Preserving core values while adapting methods
+
+**Benefits of Music Education:**
+- Language learning through lyrics
+- Emotional and spiritual expression
+- Cognitive development
+- Not just entertainment - holistic development
+    `,
+    examples: [
+      'Tyagaraja\'s disciples preserved his compositions through oral tradition',
+      'Ustad Zakir Hussain learned from his father Ustad Alla Rakha',
+      'M.S. Subbulakshmi learned from her mother and later from Semmangudi Srinivasa Iyer'
+    ],
+    references: [
+      'Kabir\'s poetry (15th century)',
+      'Traditional Carnatic and Hindustani learning methods',
+      'Modern music education research'
+    ],
+    relatedRegions: ['tamilnadu', 'karnataka', 'uttar-pradesh', 'rajasthan']
+  },
+  {
     id: 'sound-dimension',
     title: 'Sound Dimension: Musical Elements Across India',
     category: 'framework',

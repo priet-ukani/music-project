@@ -701,6 +701,45 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
   // ==================== TAMIL NADU ====================
   tamilnadu: [
     {
+      id: 'sri-tyagaraja',
+      name: 'Sri Tyagaraja',
+      nameLocal: 'தியாகராஜர்',
+      state: 'Tamil Nadu',
+      birthYear: 1767,
+      deathYear: 1847,
+      genres: ['Carnatic classical', 'Kriti', 'Devotional'],
+      instruments: ['Veena', 'Vocals'],
+      languages: ['Telugu', 'Sanskrit'],
+      gharana: 'Carnatic Trinity',
+      awards: [],
+      biography: 'One of the Trinity of Carnatic music composers, Sri Tyagaraja composed thousands of kritis (devotional songs) in Telugu. His compositions like "Jagadananda Karaka" (Raga Nāṭṭai, Tala Adi) are among the Pancharatna Kritis - five gems of Carnatic music. He emphasized the guru-shishya parampara (teacher-student tradition) and devotion to Rama. His works demonstrate mastery of ragas like Vachaspati, Charukesi, and Shankarabharanam, with complex swara patterns and tala structures.',
+      notableWorks: [
+        'Jagadananda Karaka (Raga Nāṭṭai, Tala Adi)',
+        'Pancharatna Kritis (Five Gems)',
+        'Ragamalika compositions (songs with multiple ragas)',
+        'Thousands of kritis in various ragas'
+      ],
+      status: 'deceased',
+      hereditaryTradition: false,
+      activeYears: '1780s-1847',
+      regionId: 'tamilnadu',
+      culturalContext: 'Central figure in Carnatic music, established the kriti form with Pallavi, Anupallavi, and Charanam sections. His compositions demonstrate the seven swaras (Sa, Ri, Ga, Ma, Pa, Dha, Ni) and complex tala systems including Tisra (3), Chatushra (4), Khanda (5), Misra (7), and Sankeerna (9) gatis.',
+      modernChallenges: 'Preserving authentic renditions of his compositions while adapting to modern performance contexts.',
+      audioSamples: [
+        {
+          title: 'Jagadananda Karaka - Pallavi',
+          url: '/audio/ensembles/tyagaraja-jagadananda-pallavi.mp3',
+          duration: '3:45',
+          description: 'Opening section (Pallavi) of Tyagaraja\'s famous kriti in Raga Nāṭṭai',
+          genre: 'Carnatic Classical'
+        }
+      ],
+      sources: [
+        { note: 'Pancharatna Kritis - Five Gems of Carnatic Music', url: 'https://en.wikipedia.org/wiki/Pancharatna_Kritis' },
+        { note: 'Tyagaraja and the Trinity', url: 'https://en.wikipedia.org/wiki/Tyagaraja' }
+      ]
+    },
+    {
       id: 'ms-subbulakshmi',
       name: 'M.S. Subbulakshmi',
       state: 'Tamil Nadu',

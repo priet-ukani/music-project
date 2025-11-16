@@ -228,16 +228,58 @@ export const musicalNewsData: MusicalNews[] = [
 
   // ==================== WORKSHOPS ====================
   {
+    id: 'guru-shishya-samvad-2025',
+    title: 'Guru-Shishya Parampara Conference',
+    category: 'workshop',
+    region: 'tamilnadu',
+    date: '2025-12-15',
+    endDate: '2025-12-17',
+    description: 'Three-day conference celebrating the guru-shishya (teacher-student) tradition in Indian classical music. Features discussions on preserving oral traditions, teaching methodologies, and the spiritual dimension of music education. Includes performances of Tyagaraja\'s Pancharatna Kritis and demonstrations of swara (Sa, Ri, Ga, Ma, Pa, Dha, Ni) and tala systems.',
+    venue: 'Music Academy',
+    city: 'Chennai',
+    artists: ['Senior Carnatic gurus', 'Disciples', 'Music scholars'],
+    tags: ['guru-shishya', 'carnatic', 'education', 'tradition', 'tyagaraja', 'pancharatna'],
+    featured: true
+  },
+  {
+    id: 'tyagaraja-aradhana-2026',
+    title: 'Tyagaraja Aradhana - Pancharatna Kritis Festival',
+    category: 'festival',
+    region: 'tamilnadu',
+    date: '2026-01-05',
+    endDate: '2026-01-07',
+    description: 'Annual celebration of Sri Tyagaraja at Thiruvaiyaru, featuring mass renditions of his Pancharatna Kritis (Five Gems). Thousands of musicians gather to sing "Jagadananda Karaka" (Raga Nāṭṭai) and other masterpieces. Highlights include performances in ragas like Vachaspati, Charukesi, and Shankarabharanam, demonstrating the seven swaras and complex tala patterns.',
+    venue: 'Tyagaraja Samadhi, Thiruvaiyaru',
+    city: 'Thiruvaiyaru',
+    artists: ['Carnatic musicians worldwide'],
+    tags: ['tyagaraja', 'pancharatna', 'carnatic', 'devotional', 'raga', 'tala'],
+    featured: true,
+    imageUrl: '/images/events/tyagaraja-aradhana.jpg'
+  },
+  {
+    id: 'swara-tala-workshop-2025',
+    title: 'Swara and Tala Workshop - Fundamentals of Indian Music',
+    category: 'workshop',
+    region: 'karnataka',
+    date: '2025-11-20',
+    endDate: '2025-11-22',
+    description: 'Comprehensive workshop on the foundational elements of Indian classical music: the seven swaras (Sa, Ri, Ga, Ma, Pa, Dha, Ni), their positions (swarasthan), shruti (microtonal intervals), and tala systems including Tisra (3), Chatushra (4), Khanda (5), Misra (7), and Sankeerna (9) gatis. Includes practical exercises in raga recognition and tala keeping.',
+    venue: 'Karnataka Sangeeta Sabha',
+    city: 'Bangalore',
+    tags: ['swara', 'tala', 'fundamentals', 'carnatic', 'hindustani', 'education'],
+    featured: true
+  },
+  {
     id: 'tabla-workshop-delhi-2025',
     title: 'Advanced Tabla Workshop',
     category: 'workshop',
     region: 'uttarpradesh',
     date: '2025-11-10',
     endDate: '2025-11-15',
-    description: 'Intensive tabla workshop covering advanced techniques, compositions, and accompaniment. Led by senior disciples of Ustad Zakir Hussain.',
+    description: 'Intensive tabla workshop covering advanced techniques, compositions, and accompaniment. Led by senior disciples of Ustad Zakir Hussain. Emphasizes the guru-shishya tradition in percussion learning.',
     venue: 'ITC Sangeet Research Academy',
     city: 'New Delhi',
-    tags: ['tabla', 'workshop', 'learning', 'percussion'],
+    tags: ['tabla', 'workshop', 'learning', 'percussion', 'guru-shishya'],
     featured: false
   },
   {
