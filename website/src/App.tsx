@@ -336,12 +336,6 @@ function App() {
             transition={{ delay: 0.1 }}
           >
             <div className="card">
-              {/* Debug Info */}
-              {selectedRegion && (
-                <div className="absolute top-2 left-2 bg-green-500 text-white px-3 py-1 rounded text-xs z-50">
-                  Selected: {selectedRegion.name}
-                </div>
-              )}
               <IndiaMapAccurate
                 selectedRegion={selectedRegion?.id || null}
                 onRegionSelect={handleRegionSelect}

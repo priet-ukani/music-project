@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import WaveSurfer from 'wavesurfer.js';
-import { Play, Pause, Volume2, VolumeX, RotateCcw, Gauge } from 'lucide-react';
+import { Play, Pause, Volume2, VolumeX, RotateCcw, Gauge, AlertCircle, Music } from 'lucide-react';
 
 interface WaveformPlayerProps {
   audioUrl: string;
@@ -32,9 +32,38 @@ const WaveformPlayer: React.FC<WaveformPlayerProps> = ({
   const [isMuted, setIsMuted] = useState(false);
   const [playbackSpeed, setPlaybackSpeed] = useState<number>(1);
   const [isLoading, setIsLoading] = useState(true);
+  const [hasError, setHasError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string>('');
+
+  // Check audio manifest
+  useEffect(() => {
+    const checkManifest = async () => {
+      try {
+        const response = await fetch('/audio/manifest.json');
+        if (response.ok) {
+          const manifest = await response.json();
+          const audioName = audioUrl.split('/').pop();
+          const isPlaceholder = 
+            (manifest.audio?.ambient?.[audioName]?.isPlaceholder) ||
+            (manifest.audio?.instruments?.[audioName]?.isPlaceholder) ||
+            (manifest.audio?.ensembles?.[audioName]?.isPlaceholder);
+          
+          if (isPlaceholder) {
+            setHasError(true);
+            setErrorMessage('Audio file not available');
+            setIsLoading(false);
+          }
+        }
+      } catch (error) {
+        console.warn('Manifest check failed:', error);
+      }
+    };
+
+    checkManifest();
+  }, [audioUrl]);
 
   useEffect(() => {
-    if (!waveformRef.current) return;
+    if (!waveformRef.current || hasError) return;
 
     // Create WaveSurfer instance
     const ws = WaveSurfer.create({
@@ -86,6 +115,8 @@ const WaveformPlayer: React.FC<WaveformPlayerProps> = ({
 
     ws.on('error', (error) => {
       console.error('WaveSurfer error:', error);
+      setHasError(true);
+      setErrorMessage('Failed to load audio');
       setIsLoading(false);
     });
 
@@ -145,6 +176,25 @@ const WaveformPlayer: React.FC<WaveformPlayerProps> = ({
     setPlaybackSpeed(speeds[nextIndex]);
   };
 
+  // Show error state
+  if (hasError) {
+    return (
+      <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-lg p-4 shadow-md border border-red-200">
+        <div className="flex items-start space-x-3">
+          <AlertCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+          <div className="flex-1">
+            <h4 className="font-semibold text-red-800 text-sm mb-1">{title}</h4>
+            <p className="text-xs text-red-600 mb-2">Audio Coming Soon</p>
+            {description && (
+              <p className="text-xs text-red-500 mt-1">{description}</p>
+            )}
+            <p className="text-xs text-red-500 mt-2">{errorMessage || 'This audio file is not available yet'}</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-4 shadow-md">
       {/* Title and Description */}
@@ -158,8 +208,11 @@ const WaveformPlayer: React.FC<WaveformPlayerProps> = ({
       {/* Waveform */}
       <div className="relative mb-3">
         {isLoading && (
-          <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded">
-            <div className="animate-pulse text-sm text-gray-500">Loading audio...</div>
+          <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded z-10">
+            <div className="flex items-center space-x-2">
+              <Music className="w-4 h-4 animate-pulse text-gray-400" />
+              <span className="animate-pulse text-sm text-gray-500">Loading audio...</span>
+            </div>
           </div>
         )}
         <div ref={waveformRef} className="rounded overflow-hidden" />

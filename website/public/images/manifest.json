@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-11-16 21:07:19",
+  "images": {
+    "rajasthan-kamaycha.jpg": {
+      "exists": true,
+      "path": "/images/rajasthan-kamaycha.jpg",
+      "type": "instrument"
+    },
+    "rajasthan-sarangi.jpg": {
+      "exists": true,
+      "path": "/images/rajasthan-sarangi.jpg",
+      "type": "instrument"
+    },
+    "rajasthan-performance.jpg": {
+      "exists": true,
+      "path": "/images/rajasthan-performance.jpg",
+      "type": "performance"
+    },
+    "punjab-dhol.jpg": {
+      "exists": true,
+      "path": "/images/punjab-dhol.jpg",
+      "type": "instrument"
+    },
+    "punjab-tumbi.jpg": {
+      "exists": true,
+      "path": "/images/punjab-tumbi.jpg",
+      "type": "other"
+    },
+    "punjab-bhangra.jpg": {
+      "exists": true,
+      "path": "/images/punjab-bhangra.jpg",
+      "type": "performance"
+    },
+    "bengal-ektara.jpg": {
+      "exists": true,
+      "path": "/images/bengal-ektara.jpg",
+      "type": "instrument"
+    },
+    "bengal-baul.jpg": {
+      "exists": true,
+      "path": "/images/bengal-baul.jpg",
+      "type": "performance"
+    },
+    "telangana-dappu.jpg": {
+      "exists": true,
+      "path": "/images/telangana-dappu.jpg",
+      "type": "instrument"
+    },
+    "telangana-perini.jpg": {
+      "exists": true,
+      "path": "/images/telangana-perini.jpg",
+      "type": "other"
+    },
+    "tamilnadu-veena.jpg": {
+      "exists": true,
+      "path": "/images/tamilnadu-veena.jpg",
+      "type": "instrument"
+    },
+    "tamilnadu-mridangam.jpg": {
+      "exists": true,
+      "path": "/images/tamilnadu-mridangam.jpg",
+      "type": "instrument"
+    },
+    "tamilnadu-concert.jpg": {
+      "exists": true,
+      "path": "/images/tamilnadu-concert.jpg",
+      "type": "performance"
+    },
+    "kerala-chenda.jpg": {
+      "exists": true,
+      "path": "/images/kerala-chenda.jpg",
+      "type": "instrument"
+    },
+    "kerala-temple.jpg": {
+      "exists": true,
+      "path": "/images/kerala-temple.jpg",
+      "type": "performance"
+    },
+    "maharashtra-dholki.jpg": {
+      "exists": true,
+      "path": "/images/maharashtra-dholki.jpg",
+      "type": "instrument"
+    },
+    "maharashtra-lavani.jpg": {
+      "exists": true,
+      "path": "/images/maharashtra-lavani.jpg",
+      "type": "performance"
+    },
+    "kashmir-santoor.jpg": {
+      "exists": true,
+      "path": "/images/kashmir-santoor.jpg",
+      "type": "instrument"
+    },
+    "kashmir-performance.jpg": {
+      "exists": true,
+      "path": "/images/kashmir-performance.jpg",
+      "type": "performance"
+    },
+    "artists/mogilaiah-profile.jpg": {
+      "exists": true,
+      "path": "/images/artists/mogilaiah-profile.jpg",
+      "type": "other"
+    },
+    "artists/venkanna-profile.jpg": {
+      "exists": true,
+      "path": "/images/artists/venkanna-profile.jpg",
+      "type": "other"
+    },
+    "artists/lakha-khan-profile.jpg": {
+      "exists": true,
+      "path": "/images/artists/lakha-khan-profile.jpg",
+      "type": "other"
+    }
+  }
+}

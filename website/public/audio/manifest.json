@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-11-16 21:07:19",
+  "audio": {
+    "ambient": {
+      "desert_wind.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/desert_wind.mp3",
+        "isPlaceholder": true
+      },
+      "river_flowing.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/river_flowing.mp3",
+        "isPlaceholder": true
+      },
+      "temple_bells.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/temple_bells.mp3",
+        "isPlaceholder": true
+      },
+      "village_ambience.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/village_ambience.mp3",
+        "isPlaceholder": true
+      },
+      "tropical_rain.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/tropical_rain.mp3",
+        "isPlaceholder": true
+      },
+      "coastal_waves.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/coastal_waves.mp3",
+        "isPlaceholder": true
+      },
+      "monsoon_rain.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/monsoon_rain.mp3",
+        "isPlaceholder": true
+      },
+      "rural_evening.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/rural_evening.mp3",
+        "isPlaceholder": true
+      },
+      "mountain_breeze.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/mountain_breeze.mp3",
+        "isPlaceholder": true
+      },
+      "river_forest.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/river_forest.mp3",
+        "isPlaceholder": true
+      },
+      "temple_courtyard.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/temple_courtyard.mp3",
+        "isPlaceholder": true
+      },
+      "beach_waves.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/beach_waves.mp3",
+        "isPlaceholder": true
+      },
+      "city_temple.mp3": {
+        "exists": true,
+        "path": "/audio/ambient/city_temple.mp3",
+        "isPlaceholder": true
+      }
+    },
+    "instruments": {},
+    "ensembles": {}
+  }
+}

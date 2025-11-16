@@ -10,6 +10,7 @@ interface IndiaMapAccurateProps {
 }
 
 // Map state IDs to our musical regions
+// Using ISO 3166-2:IN standard codes
 const STATE_ID_TO_REGION: Record<string, string> = {
   'IN-RJ': 'rajasthan',
   'IN-PB': 'punjab',
@@ -19,7 +20,7 @@ const STATE_ID_TO_REGION: Record<string, string> = {
   'IN-KL': 'kerala',
   'IN-TN': 'tamilnadu',
   'IN-MH': 'maharashtra',
-  'IN-JK': 'kashmir',
+  'IN-JK': 'kashmir', // Jammu & Kashmir
   'IN-NL': 'nagaland',
   'IN-MN': 'manipur',
   'IN-UP': 'uttarpradesh',
@@ -32,6 +33,36 @@ const STATE_ID_TO_REGION: Record<string, string> = {
   'IN-ML': 'meghalaya',
   'IN-CT': 'chhattisgarh',
   'IN-JH': 'jharkhand',
+  // Additional mappings for regions that might span multiple states
+  'IN-HR': 'punjab', // Haryana - culturally similar to Punjab
+  'IN-DL': 'uttarpradesh', // Delhi - shares Hindustani classical tradition
+  'IN-BR': 'uttarpradesh', // Bihar - shares cultural similarities
+  'IN-MP': 'rajasthan', // Madhya Pradesh - shares some traditions
+};
+
+// Reverse mapping for fallback - if a region doesn't have direct state mapping
+const REGION_TO_STATE_FALLBACK: Record<string, string[]> = {
+  'rajasthan': ['IN-RJ'],
+  'punjab': ['IN-PB', 'IN-HR'],
+  'bengal': ['IN-WB'],
+  'telangana': ['IN-TG'],
+  'assam': ['IN-AS'],
+  'kerala': ['IN-KL'],
+  'tamilnadu': ['IN-TN'],
+  'maharashtra': ['IN-MH'],
+  'kashmir': ['IN-JK'],
+  'nagaland': ['IN-NL'],
+  'manipur': ['IN-MN'],
+  'uttarpradesh': ['IN-UP', 'IN-DL', 'IN-BR'],
+  'gujarat': ['IN-GJ'],
+  'karnataka': ['IN-KA'],
+  'odisha': ['IN-OR'],
+  'uttarakhand': ['IN-UT'],
+  'mizoram': ['IN-MZ'],
+  'goa': ['IN-GA'],
+  'meghalaya': ['IN-ML'],
+  'chhattisgarh': ['IN-CT'],
+  'jharkhand': ['IN-JH'],
 };
 
 export default function IndiaMapAccurate({
