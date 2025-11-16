@@ -17,6 +17,9 @@ interface AudioContextType {
 const AudioContext = createContext<AudioContextType | undefined>(undefined);
 
 // Ambient sound mappings for each region
+// Using placeholder URLs - replace with actual audio files or external sources
+// For development: Using silent audio data URLs as placeholders
+const SILENT_AUDIO = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=';
 const AMBIENT_SOUNDS: Record<string, string> = {
   rajasthan: '/audio/ambient/desert_wind.mp3',
   bengal: '/audio/ambient/river_flowing.mp3',
