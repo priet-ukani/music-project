@@ -43,17 +43,23 @@ const WaveformPlayer: React.FC<WaveformPlayerProps> = ({
         if (response.ok) {
           const manifest = await response.json();
           const audioName = audioUrl.split('/').pop();
+          
+          // Check all sections and explicitly check for true
           const isPlaceholder = 
-            (manifest.audio?.ambient?.[audioName]?.isPlaceholder) ||
-            (manifest.audio?.instruments?.[audioName]?.isPlaceholder) ||
-            (manifest.audio?.ensembles?.[audioName]?.isPlaceholder) ||
-            (manifest.audio?.samples?.[audioName]?.isPlaceholder);
+            (manifest.audio?.ambient?.[audioName]?.isPlaceholder === true) ||
+            (manifest.audio?.instruments?.[audioName]?.isPlaceholder === true) ||
+            (manifest.audio?.ensembles?.[audioName]?.isPlaceholder === true) ||
+            (manifest.audio?.samples?.[audioName]?.isPlaceholder === true);
           
           if (isPlaceholder) {
+            console.warn('Audio marked as placeholder:', audioName);
             setHasError(true);
             setErrorMessage('Audio file not available');
             setIsLoading(false);
+            return;
           }
+          
+          console.log('Audio file check passed:', audioName);
         }
       } catch (error) {
         console.warn('Manifest check failed:', error);
@@ -66,64 +72,95 @@ const WaveformPlayer: React.FC<WaveformPlayerProps> = ({
   useEffect(() => {
     if (!waveformRef.current || hasError) return;
 
-    // Create WaveSurfer instance
-    const ws = WaveSurfer.create({
-      container: waveformRef.current,
-      waveColor: waveColor,
-      progressColor: progressColor,
-      cursorColor: '#f97316',
-      barWidth: 2,
-      barRadius: 3,
-      cursorWidth: 1,
-      height: height,
-      barGap: 2,
-      normalize: true,
-      hideScrollbar: true,
-    });
+    let destroyed = false;
+    let ws: WaveSurfer | null = null;
 
-    wavesurferRef.current = ws;
+    const initWaveSurfer = async () => {
+      try {
+        // Create WaveSurfer instance
+        ws = WaveSurfer.create({
+          container: waveformRef.current!,
+          waveColor: waveColor,
+          progressColor: progressColor,
+          cursorColor: '#f97316',
+          barWidth: 2,
+          barRadius: 3,
+          cursorWidth: 1,
+          height: height,
+          barGap: 2,
+          normalize: true,
+          hideScrollbar: true,
+        });
 
-    // Load audio
-    ws.load(audioUrl);
+        wavesurferRef.current = ws;
 
-    // Event listeners
-    ws.on('ready', () => {
-      setIsLoading(false);
-      const dur = ws.getDuration();
-      setDuration(formatTime(dur));
-      ws.setVolume(volume);
-    });
+        // Event listeners
+        ws.on('ready', () => {
+          if (destroyed) return;
+          setIsLoading(false);
+          const dur = ws!.getDuration();
+          setDuration(formatTime(dur));
+          ws!.setVolume(volume);
+        });
 
-    ws.on('audioprocess', () => {
-      const time = ws.getCurrentTime();
-      setCurrentTime(formatTime(time));
-    });
+        ws.on('audioprocess', () => {
+          if (destroyed) return;
+          const time = ws!.getCurrentTime();
+          setCurrentTime(formatTime(time));
+        });
 
-    ws.on('play', () => {
-      setIsPlaying(true);
-      onPlay?.();
-    });
+        ws.on('play', () => {
+          if (destroyed) return;
+          setIsPlaying(true);
+          onPlay?.();
+        });
 
-    ws.on('pause', () => {
-      setIsPlaying(false);
-      onPause?.();
-    });
+        ws.on('pause', () => {
+          if (destroyed) return;
+          setIsPlaying(false);
+          onPause?.();
+        });
 
-    ws.on('finish', () => {
-      setIsPlaying(false);
-      setCurrentTime('0:00');
-    });
+        ws.on('finish', () => {
+          if (destroyed) return;
+          setIsPlaying(false);
+          setCurrentTime('0:00');
+        });
 
-    ws.on('error', (error) => {
-      console.error('WaveSurfer error:', error);
-      setHasError(true);
-      setErrorMessage('Failed to load audio');
-      setIsLoading(false);
-    });
+        ws.on('error', (error) => {
+          if (destroyed) return;
+          console.error('WaveSurfer error:', error);
+          console.error('Audio URL:', audioUrl);
+          setHasError(true);
+          setErrorMessage(`Failed to load audio: ${error}`);
+          setIsLoading(false);
+        });
+
+        // Load audio
+        await ws.load(audioUrl);
+      } catch (error) {
+        if (destroyed) return;
+        console.error('WaveSurfer initialization error:', error);
+        console.error('Audio URL:', audioUrl);
+        setHasError(true);
+        setErrorMessage('Failed to initialize audio player');
+        setIsLoading(false);
+      }
+    };
+
+    initWaveSurfer();
 
     // Cleanup
     return () => {
-      ws.destroy();
+      destroyed = true;
+      if (ws) {
+        try {
+          ws.destroy();
+        } catch (error) {
+          // Ignore cleanup errors
+          console.warn('WaveSurfer cleanup error:', error);
+        }
+      }
     };
   }, [audioUrl, height, waveColor, progressColor]);
 

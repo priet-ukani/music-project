@@ -32,7 +32,8 @@ export const musicalNewsData: MusicalNews[] = [
     city: 'Guwahati',
     artists: ['Zubeen Garg', 'Papon'],
     tags: ['bihu', 'harvest', 'assamese new year'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/rongali-bihu.jpg'
   },
   {
     id: 'thrissur-pooram-2025',
@@ -44,7 +45,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Vadakkunnathan Temple',
     city: 'Thrissur',
     tags: ['temple', 'percussion', 'chenda melam', 'panchavadyam'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/thrissur-pooram.jpg'
   },
   {
     id: 'rajasthan-folk-fest-2026',
@@ -60,7 +62,8 @@ export const musicalNewsData: MusicalNews[] = [
     organizer: 'Jodhpur RIFF Society',
     ticketUrl: 'https://www.jodhpurriff.org',
     tags: ['folk', 'international', 'manganiyar', 'langa'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/rajasthan-riff.jpg'
   },
   {
     id: 'konark-dance-fest-2025',
@@ -73,7 +76,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Konark Sun Temple',
     city: 'Konark',
     tags: ['odissi', 'classical', 'dance-music', 'heritage'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/konark-festival.jpg'
   },
 
   // ==================== CONCERTS ====================
@@ -89,7 +93,8 @@ export const musicalNewsData: MusicalNews[] = [
     artists: ['Ustad Zakir Hussain'],
     ticketUrl: 'https://insider.in',
     tags: ['tabla', 'hindustani classical', 'percussion'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/zakir-hussain-concert.jpg'
   },
   {
     id: 'tm-krishna-carnatic-2025',
@@ -102,7 +107,8 @@ export const musicalNewsData: MusicalNews[] = [
     city: 'Chennai',
     artists: ['T.M. Krishna'],
     tags: ['carnatic', 'classical', 'vocal', 'december season'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/carnatic-concert.jpg'
   },
   {
     id: 'papon-assam-tour-2025',
@@ -116,7 +122,8 @@ export const musicalNewsData: MusicalNews[] = [
     artists: ['Papon'],
     ticketUrl: 'https://bookmyshow.com',
     tags: ['folk fusion', 'contemporary', 'assamese'],
-    featured: false
+    featured: false,
+    imageUrl: '/images/events/papon-concert.jpg'
   },
   {
     id: 'remo-fernandes-goa-2025',
@@ -129,7 +136,8 @@ export const musicalNewsData: MusicalNews[] = [
     city: 'Panaji',
     artists: ['Remo Fernandes'],
     tags: ['goan pop', 'new year', 'celebration'],
-    featured: false
+    featured: false,
+    imageUrl: '/images/events/goa-concert.jpg'
   },
 
   // ==================== AWARDS ====================
@@ -143,7 +151,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Rashtrapati Bhavan',
     city: 'New Delhi',
     tags: ['padma awards', 'national honor', 'recognition'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/padma-awards.jpg'
   },
   {
     id: 'sangeet-natak-akademi-2024',
@@ -155,7 +164,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Sangeet Natak Akademi',
     city: 'New Delhi',
     tags: ['akademi', 'performing arts', 'national award'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/akademi-awards.jpg'
   },
   {
     id: 'tansen-samaroh-2025',
@@ -168,7 +178,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Tansen Tomb',
     city: 'Gwalior',
     tags: ['hindustani classical', 'heritage', 'award'],
-    featured: false
+    featured: false,
+    imageUrl: '/images/events/tansen-samaroh.jpg'
   },
 
   // ==================== CULTURAL EVENTS ====================
@@ -183,7 +194,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Nazrul Mancha',
     city: 'Kolkata',
     tags: ['hindustani classical', 'all-night', 'heritage'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/dover-lane.jpg'
   },
   {
     id: 'surajkund-mela-2025',
@@ -196,7 +208,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Surajkund',
     city: 'Faridabad',
     tags: ['folk', 'crafts', 'cultural', 'multi-regional'],
-    featured: false
+    featured: false,
+    imageUrl: '/images/events/surajkund-mela.jpg'
   },
   {
     id: 'hornbill-fest-2025',
@@ -210,7 +223,8 @@ export const musicalNewsData: MusicalNews[] = [
     city: 'Kohima',
     artists: ['Tetseo Sisters', 'Various tribal ensembles'],
     tags: ['tribal', 'naga', 'traditional', 'heritage'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/hornbill-festival.jpg'
   },
   {
     id: 'hampi-utsav-2026',
@@ -223,7 +237,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Hampi Ruins',
     city: 'Hampi',
     tags: ['carnatic', 'yakshagana', 'heritage', 'unesco'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/hampi-utsav.jpg'
   },
 
   // ==================== WORKSHOPS ====================
@@ -239,7 +254,8 @@ export const musicalNewsData: MusicalNews[] = [
     city: 'Chennai',
     artists: ['Senior Carnatic gurus', 'Disciples', 'Music scholars'],
     tags: ['guru-shishya', 'carnatic', 'education', 'tradition', 'tyagaraja', 'pancharatna'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/guru-shishya.jpg'
   },
   {
     id: 'tyagaraja-aradhana-2026',
@@ -267,7 +283,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Karnataka Sangeeta Sabha',
     city: 'Bangalore',
     tags: ['swara', 'tala', 'fundamentals', 'carnatic', 'hindustani', 'education'],
-    featured: true
+    featured: true,
+    imageUrl: '/images/events/swara-tala-workshop.jpg'
   },
   {
     id: 'tabla-workshop-delhi-2025',
@@ -280,7 +297,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'ITC Sangeet Research Academy',
     city: 'New Delhi',
     tags: ['tabla', 'workshop', 'learning', 'percussion', 'guru-shishya'],
-    featured: false
+    featured: false,
+    imageUrl: '/images/events/tabla-workshop.jpg'
   },
   {
     id: 'odissi-music-workshop-2025',
@@ -293,7 +311,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Guru Kelu Charan Mohapatra Odissi Nrityabasa',
     city: 'Bhubaneswar',
     tags: ['odissi', 'workshop', 'classical', 'vocal'],
-    featured: false
+    featured: false,
+    imageUrl: '/images/events/odissi-workshop.jpg'
   },
   {
     id: 'folk-instrument-camp-2026',
@@ -306,7 +325,8 @@ export const musicalNewsData: MusicalNews[] = [
     venue: 'Cultural Centre',
     city: 'Shillong',
     tags: ['folk', 'instruments', 'northeast', 'traditional'],
-    featured: false
+    featured: false,
+    imageUrl: '/images/events/folk-instruments-camp.jpg'
   },
 
   // ==================== RELEASES ====================
@@ -319,7 +339,8 @@ export const musicalNewsData: MusicalNews[] = [
     description: 'Teejan Bai releases new Pandavani album featuring rare episodes from the Mahabharata. Recorded with traditional accompaniment.',
     artists: ['Teejan Bai'],
     tags: ['pandavani', 'folk', 'album', 'mahabharata'],
-    featured: false
+    featured: false,
+    imageUrl: '/images/events/pandavani-album.jpg'
   },
   {
     id: 'manipur-pena-revival-2025',
@@ -331,7 +352,8 @@ export const musicalNewsData: MusicalNews[] = [
     city: 'Imphal',
     artists: ['Mohen Naorem'],
     tags: ['pena', 'revival', 'traditional', 'documentation'],
-    featured: false
+    featured: false,
+    imageUrl: '/images/events/pena-revival.jpg'
   }
 ];
 

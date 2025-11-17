@@ -7,6 +7,8 @@ import regionalArtistsEnhanced from '../data/regionalArtistsEnhanced';
 import ArtistCard from './ArtistCard';
 import instrumentsMetadata from '../data/instrumentsMetadata';
 import InstrumentSpotlight from './InstrumentSpotlight';
+import SimpleAudioPlayer from './SimpleAudioPlayer';
+import AudioPlayer from './AudioPlayer';
 import WaveformPlayer from './WaveformPlayer';
 import SoundscapeMixer from './SoundscapeMixer';
 
@@ -176,13 +178,11 @@ const RegionModal: React.FC<RegionModalProps> = ({ region, onClose }) => {
                       <Section title="Audio Samples" icon={<Play />}>
                         <div className="space-y-4">
                           {region.audioSamples.map((sample, idx) => (
-                            <WaveformPlayer
+                            <SimpleAudioPlayer
                               key={idx}
                               audioUrl={sample.file}
                               title={sample.title}
                               description={sample.description}
-                              waveColor={region.color ? `${region.color}40` : '#94a3b8'}
-                              progressColor={region.color || '#f97316'}
                             />
                           ))}
                         </div>
