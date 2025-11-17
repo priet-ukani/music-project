@@ -29,19 +29,23 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ audioUrl, onClose }) => {
           const manifest = await response.json();
           const audioName = audioUrl.split('/').pop();
           
-          // Check ambient, instruments, or ensembles
+          // Check ambient, instruments, ensembles, or samples
           const audioPath = audioUrl.replace('/audio/', '');
           const isPlaceholder = 
-            (manifest.audio?.ambient?.[audioName]?.isPlaceholder) ||
-            (manifest.audio?.instruments?.[audioName]?.isPlaceholder) ||
-            (manifest.audio?.ensembles?.[audioName]?.isPlaceholder);
+            (manifest.audio?.ambient?.[audioName]?.isPlaceholder === true) ||
+            (manifest.audio?.instruments?.[audioName]?.isPlaceholder === true) ||
+            (manifest.audio?.ensembles?.[audioName]?.isPlaceholder === true) ||
+            (manifest.audio?.samples?.[audioName]?.isPlaceholder === true);
           
           if (isPlaceholder) {
+            console.warn('Audio marked as placeholder:', audioName);
             setHasError(true);
             setErrorMessage('Audio file not available yet');
             setIsLoading(false);
             return;
           }
+          
+          console.log('Audio file check passed:', audioName);
         }
       } catch (error) {
         // Manifest check failed, continue with normal loading
@@ -58,7 +62,8 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ audioUrl, onClose }) => {
     // Create Howler instance
     soundRef.current = new Howl({
       src: [audioUrl],
-      html5: true,
+      format: ['wav', 'mp3', 'ogg'], // Try multiple formats - files may have wrong extension
+      html5: false, // Use Web Audio API instead of HTML5 for better format support
       volume: volume,
       onload: function() {
         setDuration(soundRef.current?.duration() || 0);
@@ -66,8 +71,10 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ audioUrl, onClose }) => {
       },
       onloaderror: function(id, error) {
         console.error('Audio load error:', error);
+        console.error('Audio URL:', audioUrl);
+        console.error('File exists check - try accessing:', window.location.origin + audioUrl);
         setHasError(true);
-        setErrorMessage('Failed to load audio file');
+        setErrorMessage(`Failed to load audio file. URL: ${audioUrl}`);
         setIsLoading(false);
       },
       onplay: function() {

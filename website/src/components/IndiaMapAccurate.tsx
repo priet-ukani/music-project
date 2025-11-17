@@ -80,18 +80,19 @@ export default function IndiaMapAccurate({
     }
   };
 
-  // SOLUTION 1: Use the library's built-in onStateClick handler
+  // Handle state clicks - map state ID to region and trigger modal
   const handleStateClick = (stateId: string) => {
-    console.log('🎯 State clicked via onStateClick:', stateId);
+    console.log('🎯 State clicked:', stateId);
     
     // Map the state ID to our region
     const region = STATE_ID_TO_REGION[stateId];
     
     if (region) {
       console.log('✅ Opening region modal for:', region);
+      // Call parent handler with region ID
       onRegionSelect(region);
     } else {
-      console.log('⚠️ No region mapping found for state:', stateId);
+      console.log('⚠️ No region mapping found for state:', stateId, '- Available mappings:', Object.keys(STATE_ID_TO_REGION));
     }
   };
 
@@ -147,48 +148,25 @@ export default function IndiaMapAccurate({
     };
   };
 
-  // Add useEffect to attach click handlers directly to SVG paths after render
+  // Log when component updates to help debug
   useEffect(() => {
-    const attachClickHandlers = () => {
-      // Find all SVG paths with state IDs
-      stateData.forEach((state) => {
-        const paths = document.querySelectorAll(`path[id="${state.id}"]`);
-        paths.forEach((path) => {
-          // Remove existing listeners to avoid duplicates
-          const newPath = path.cloneNode(true) as SVGPathElement;
-          path.parentNode?.replaceChild(newPath, path);
-          
-          // Attach click handler directly
-          newPath.addEventListener('click', (e) => {
-            e.stopPropagation();
-            console.log('🎯 Direct click on path:', state.id);
-            const region = STATE_ID_TO_REGION[state.id];
-            if (region) {
-              onRegionSelect(region);
-            }
-          });
-          
-          // Ensure pointer events are enabled
-          newPath.style.pointerEvents = 'all';
-          newPath.style.cursor = 'pointer';
-        });
-      });
-    };
-
-    // Wait for map to render
-    const timer = setTimeout(attachClickHandlers, 100);
-    return () => clearTimeout(timer);
-  }, [stateData, selectedRegion, matchedRegions, onRegionSelect]);
+    console.log('📍 IndiaMapAccurate rendered - Region count:', musicalRegions.length, 'Selected:', selectedRegion);
+  }, [selectedRegion]);
 
   return (
     <div className="relative w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-amber-50 rounded-lg p-4">
       <div 
         ref={mapContainerRef}
         className="w-full max-w-4xl mx-auto"
-        style={{ pointerEvents: 'auto', position: 'relative', zIndex: 1 }}
+        style={{ position: 'relative', isolation: 'isolate' }}
       >
         <style>
           {`
+            /* Hide the library's default tooltip */
+            div[style*="position: absolute"][style*="z-index"] {
+              display: none !important;
+            }
+            
             /* Ensure all SVG paths are clickable */
             svg {
               pointer-events: all !important;
@@ -203,10 +181,13 @@ export default function IndiaMapAccurate({
               -webkit-user-select: none;
               position: relative;
               z-index: 2;
+              transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             }
             
             svg path:hover {
-              filter: brightness(1.1);
+              filter: brightness(1.15) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+              transform: scale(1.02);
+              transform-origin: center;
             }
             
             /* Ensure no overlays block clicks */
@@ -256,20 +237,73 @@ export default function IndiaMapAccurate({
         
         {/* Enhanced Region tooltip */}
         {hoveredRegionData && (
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-gray-900 to-gray-800 text-white px-6 py-3 rounded-xl shadow-2xl z-10 border-2 border-white/20 pointer-events-none">
-            <div className="flex items-center space-x-2">
+          <div 
+            className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white px-6 py-4 rounded-2xl shadow-2xl z-[100] border-2 border-white/30 pointer-events-none animate-in fade-in slide-in-from-bottom-2 duration-300"
+            style={{
+              backdropFilter: 'blur(10px)',
+              maxWidth: '500px',
+              boxShadow: `0 20px 40px -10px ${hoveredRegionData.color}40, 0 0 0 1px ${hoveredRegionData.color}20`
+            }}
+          >
+            {/* Region Header */}
+            <div className="flex items-center space-x-3 mb-3">
               <div 
-                className="w-3 h-3 rounded-full" 
-                style={{ backgroundColor: hoveredRegionData.color }}
+                className="w-4 h-4 rounded-full animate-pulse" 
+                style={{ 
+                  backgroundColor: hoveredRegionData.color,
+                  boxShadow: `0 0 10px ${hoveredRegionData.color}80`
+                }}
               />
-              <p className="text-base font-bold">{hoveredRegionData.name}</p>
+              <p className="text-lg font-bold tracking-wide">{hoveredRegionData.name}</p>
             </div>
-            <p className="text-xs text-gray-300 mt-1 max-w-md">
+            
+            {/* Description */}
+            <p className="text-sm text-gray-200 leading-relaxed mb-3 line-clamp-2">
               {hoveredRegionData.description}
             </p>
-            <p className="text-xs text-amber-400 mt-2 font-medium">
-              Click to explore instruments, artists & traditions
-            </p>
+            
+            {/* Quick Stats */}
+            <div className="grid grid-cols-3 gap-3 mb-3 text-xs">
+              <div className="bg-white/10 rounded-lg px-2 py-1.5 text-center">
+                <div className="font-bold text-amber-400">{hoveredRegionData.instruments.melodic.length + hoveredRegionData.instruments.rhythmic.length}</div>
+                <div className="text-gray-400 text-[10px]">Instruments</div>
+              </div>
+              <div className="bg-white/10 rounded-lg px-2 py-1.5 text-center">
+                <div className="font-bold text-blue-400">{hoveredRegionData.language.primary.length}</div>
+                <div className="text-gray-400 text-[10px]">Languages</div>
+              </div>
+              <div className="bg-white/10 rounded-lg px-2 py-1.5 text-center">
+                <div className="font-bold text-green-400">{hoveredRegionData.audioSamples?.length || 0}</div>
+                <div className="text-gray-400 text-[10px]">Audio Samples</div>
+              </div>
+            </div>
+            
+            {/* Featured Instruments */}
+            {hoveredRegionData.instruments.unique.length > 0 && (
+              <div className="mb-3">
+                <p className="text-[10px] text-gray-400 uppercase tracking-wider mb-1">Unique Instruments</p>
+                <div className="flex flex-wrap gap-1">
+                  {hoveredRegionData.instruments.unique.slice(0, 3).map((instrument, idx) => (
+                    <span 
+                      key={idx} 
+                      className="text-[10px] px-2 py-0.5 rounded-full bg-white/10 text-gray-200 border border-white/20"
+                    >
+                      {instrument}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+            
+            {/* Call to Action */}
+            <div className="flex items-center justify-center space-x-2 pt-2 border-t border-white/10">
+              <svg className="w-4 h-4 text-amber-400 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+              </svg>
+              <p className="text-xs text-amber-400 font-semibold">
+                Click to explore full details
+              </p>
+            </div>
           </div>
         )}
         

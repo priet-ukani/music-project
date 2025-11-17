@@ -46,7 +46,8 @@ const WaveformPlayer: React.FC<WaveformPlayerProps> = ({
           const isPlaceholder = 
             (manifest.audio?.ambient?.[audioName]?.isPlaceholder) ||
             (manifest.audio?.instruments?.[audioName]?.isPlaceholder) ||
-            (manifest.audio?.ensembles?.[audioName]?.isPlaceholder);
+            (manifest.audio?.ensembles?.[audioName]?.isPlaceholder) ||
+            (manifest.audio?.samples?.[audioName]?.isPlaceholder);
           
           if (isPlaceholder) {
             setHasError(true);

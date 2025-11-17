@@ -148,6 +148,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
           genre: 'Sufi folk'
         }
       ],
+      images: {
+        profile: '/images/artists/osman-mir-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         instagram: 'https://www.instagram.com/osmanmirofficial',
         youtube: 'https://www.youtube.com/c/OsmanMir',
@@ -178,6 +182,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
           genre: 'Devotional'
         }
       ],
+      images: {
+        profile: '/images/artists/hemant-chauhan-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: false,
       activeYears: '1990s-present',
@@ -204,6 +212,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
           genre: 'Folk fusion'
         }
       ],
+      images: {
+        profile: '/images/artists/kirtidan-gadhvi-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         instagram: 'https://www.instagram.com/kirtidangadhvi',
         youtube: 'https://www.youtube.com/kirtidangadhvi'
@@ -224,6 +236,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'A young folk sensation from the Rabari community, Geeta Rabari has taken social media by storm with her powerful traditional voice. Despite her youth, she carries forward the authentic folk traditions of Gujarat with remarkable skill and passion.',
       notableWorks: ['YouTube viral folk songs', 'Navratri performances'],
+            images: {
+        profile: '/images/artists/geeta-rabari-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         youtube: 'https://www.youtube.com/geetarabari',
         instagram: 'https://www.instagram.com/geetarabariofficial'
@@ -243,6 +259,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'A legendary Gujarati bhajan singer, Praful Dave is especially known for his Krishna bhajans. His "Jai Jai Govind" series has been a staple in Gujarati households for decades. His devotional singing style is both traditional and accessible.',
       notableWorks: ['Jai Jai Govind series', 'Krishna Janmashtami bhajans'],
+      images: {
+        profile: '/images/artists/praful-dave-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: false,
       activeYears: '1980s-present',
@@ -272,6 +292,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
           genre: 'Sufi folk'
         }
       ],
+            images: {
+        profile: '/images/artists/praful-dave-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         instagram: 'https://www.instagram.com/mamekhanofficial',
         website: 'https://www.mamekhan.com',
@@ -318,6 +342,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A virtuoso kamaycha player, Sawan Khan specializes in the pure traditional Rajasthani folk repertoire. His mastery of the bowed kamaycha lute and his deep knowledge of desert ballads make him one of the most respected Manganiyar musicians.',
       notableWorks: ['Traditional Maand performances', 'Kamaycha solo concerts'],
+      images: {
+        profile: '/images/artists/sawan-khan-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: true,
       activeYears: '1970s-present',
@@ -334,6 +362,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'A collective of young Manganiyar musicians from Barmer district who blend traditional Rajasthani folk with contemporary world music elements. They\'ve gained international recognition on world music charts and tour globally.',
       notableWorks: ['Album: Nomad', 'International festival performances'],
+      images: {
+        profile: '/images/artists/barmer-boys-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         website: 'https://www.barmerboys.com',
         spotify: 'https://open.spotify.com/artist/barmerboys'
@@ -385,6 +417,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
           genre: 'Folk'
         }
       ],
+      images: {
+        profile: '/images/artists/gurdas-maan-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         instagram: 'https://www.instagram.com/gurdasmaan',
         youtube: 'https://www.youtube.com/gurdasmaan',
@@ -407,6 +443,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'Known for his Sufi singing and deep connection to Punjabi folk traditions, Hans Raj Hans brings spiritual depth to Punjabi music. His songs blend Sufi mysticism with folk melodies, and he\'s also sung for Bollywood films.',
       notableWorks: ['Punjabi aa gaye ni', 'Sufi qawwalis', 'Bollywood playback'],
+      images: {
+        profile: '/images/artists/hans-raj-hans-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: false,
       activeYears: '1980s-present',
@@ -422,6 +462,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Known as the "Nightingale of Punjab," Surinder Kaur was a legendary voice of Punjabi folk music. Her song "Lathe Di Chadar" and numerous other folk classics defined the golden era of Punjabi music. She sang with pure emotion and traditional authenticity.',
       notableWorks: ['Lathe Di Chadar', 'Traditional Punjabi folk songs'],
+      images: {
+        profile: '/images/artists/surinder-kaur-profile.jpg',
+        performance: []
+      },
       status: 'deceased',
       birthYear: 1929,
       deathYear: 2008,
@@ -439,6 +483,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'A folk legend who defined modern Punjabi folk music, Alam Lohar\'s powerful voice and energetic performances made him iconic. He popularized the use of tumbi and chimta in folk music. He\'s considered the father of modern Punjabi folk.',
       notableWorks: ['Jugni', 'Traditional Punjabi folk songs'],
+      images: {
+        profile: '/images/artists/alam-lohar-profile.jpg',
+        performance: []
+      },
       status: 'deceased',
       birthYear: 1928,
       deathYear: 1979,
@@ -459,6 +507,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A master of Gurbani Kirtan and Gurmat Sangeet (Sikh sacred music), Bhai Nirmal Singh is renowned for his classical raga-based renditions of Sikh hymns. He has trained numerous students in this devotional tradition.',
       notableWorks: ['Raga-based Gurbani Kirtan', 'Classical Sikh devotional music'],
+      images: {
+        profile: '/images/artists/bhai-nirmal-singh-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: true,
       activeYears: '1970s-present',
@@ -521,6 +573,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'A leading exponent of Uttar Pradesh folk music, Malini Awasthi specializes in Purvanchal folk traditions including Kajri, Chaiti, and Holi songs. She has brought traditional UP folk music to mainstream audiences through concerts and recordings.',
       notableWorks: ['Kajri folk songs', 'Chaiti seasonal songs', 'Holi celebrations'],
+            images: {
+        profile: '/images/artists/hans-raj-hans-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         youtube: 'https://www.youtube.com/maliniawasthi',
         instagram: 'https://www.instagram.com/maliniawasthi'
@@ -566,6 +622,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A female Baul singer and storyteller, Parvathy Baul has brought the mystical Baul tradition to international audiences. She performs with traditional instruments like ektara and duggi, singing songs of divine love and spiritual longing.',
       notableWorks: ['International Baul performances', 'Collaborations with world musicians'],
+      images: {
+        profile: '/images/artists/parvathy-baul-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         website: 'https://www.parvathybaul.com',
         youtube: 'https://www.youtube.com/parvathybaul'
@@ -588,6 +648,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A legendary Baul singer who collaborated with Bob Dylan and The Band, Purna Das Baul represents the pure traditional Baul lineage. His haunting voice and mastery of Baul philosophy have made him an icon of Bengali folk music.',
       notableWorks: ['Grammy collaboration with Bob Dylan', 'Traditional Baul albums'],
+      images: {
+        profile: '/images/artists/purna-das-baul-profile.jpg',
+        performance: []
+      },
       status: 'living',
       birthYear: 1933,
       hereditaryTradition: true,
@@ -607,6 +671,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A torchbearer of the Rampur-Sahaswan gharana, Rashid Khan is known for his powerful voice and innovative approach to classical music. Based in Kolkata, he has modernized the presentation of Hindustani classical music while maintaining its purity.',
       notableWorks: ['Raga Darbari performances', 'Classical concerts worldwide'],
+      images: {
+        profile: '/images/artists/rashid-khan-profile.jpg',
+        performance: []
+      },
       status: 'living',
       birthYear: 1966,
       hereditaryTradition: true,
@@ -652,6 +720,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A legendary classical vocalist known for her innovative approach to the Jaipur gharana. Kishori Amonkar was revered for her emotional depth and spiritual intensity in classical music, and her unique interpretations of ragas.',
       notableWorks: ['Raga Bhairavi performances', 'Innovative raga interpretations'],
+      images: {
+        profile: '/images/artists/kishori-amonkar-profile.jpg',
+        performance: []
+      },
       status: 'deceased',
       birthYear: 1932,
       deathYear: 2017,
@@ -670,6 +742,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Known as the "Queen of Lavani," Sulochana Chavan was a legendary performer of this traditional Maharashtra dance-song form. Her powerful voice and expressive performances brought Lavani to mainstream audiences and preserved this important cultural tradition.',
       notableWorks: ['Traditional Lavani performances', 'Natyasangeet'],
+      images: {
+        profile: '/images/artists/sulochana-chavan-profile.jpg',
+        performance: []
+      },
       status: 'deceased',
       birthYear: 1937,
       deathYear: 2010,
@@ -690,6 +766,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A versatile singer known for his devotional Marathi music, especially Abhangs (devotional poetry of Sant tradition). He has also been a successful Bollywood playback singer while maintaining his connection to traditional Marathi music.',
       notableWorks: ['Marathi Abhangs', 'Bollywood playback', 'Devotional albums'],
+      images: {
+        profile: '/images/artists/suresh-wadkar-profile.jpg',
+        performance: []
+      },
       status: 'living',
       birthYear: 1954,
       hereditaryTradition: false,
@@ -752,6 +832,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'The first musician to receive the Bharat Ratna, M.S. Subbulakshmi was an iconic Carnatic vocalist whose voice defined South Indian classical music. Her rendition of "Suprabhatam" is legendary, and she represented India at the UN in 1966.',
       notableWorks: ['Venkateshwara Suprabhatam', 'Vishnu Sahasranamam', 'UN performance'],
+      images: {
+        profile: '/images/artists/ms-subbulakshmi-profile.jpg',
+        performance: []
+      },
       status: 'deceased',
       birthYear: 1916,
       deathYear: 2004,
@@ -772,6 +856,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A leading Carnatic vocalist and social activist, T.M. Krishna challenges the caste and class barriers in classical music. He has written extensively on the politics of Carnatic music and works to make it accessible to marginalized communities.',
       notableWorks: ['Carnatic concerts', 'Book: A Southern Music', 'Community music initiatives'],
+            images: {
+        profile: '/images/artists/purna-das-baul-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         website: 'https://www.tmkrishna.com',
         youtube: 'https://www.youtube.com/tmkrishna'
@@ -795,6 +883,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A leading Carnatic vocalist who also sings for films, Bombay Jayashri gained international recognition for her Oscar-nominated song "Pi\'s Lullaby" from Life of Pi. She bridges classical and contemporary music beautifully.',
       notableWorks: ['Pi\'s Lullaby (Oscar nominee)', 'Carnatic concerts', 'Fusion projects'],
+            images: {
+        profile: '/images/artists/bombay-jayashri-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         website: 'https://www.bombayjayashri.com'
       },
@@ -815,6 +907,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'A pioneer of Gaana music (Chennai street music genre), Gaana Bala brought this working-class art form to mainstream cinema and recognition. His energetic style and connection to grassroots culture have made him an icon of urban Tamil music.',
       notableWorks: ['Gaana songs in Tamil cinema', 'Street performances'],
+      images: {
+        profile: '/images/artists/gaana-bala-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: false,
       activeYears: '1990s-present',
@@ -880,6 +976,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'One of India\'s greatest playback singers with over 50,000 songs in multiple languages. A trained Carnatic musician, Yesudas has won 8 National Film Awards and is revered across South India for his versatile voice and devotional singing.',
       notableWorks: ['Harivarasanam (Sabarimala anthem)', '8 National Film Awards', 'Devotional albums'],
+      images: {
+        profile: '/images/artists/kj-yesudas-profile.jpg',
+        performance: []
+      },
       status: 'living',
       birthYear: 1940,
       hereditaryTradition: true,
@@ -899,6 +999,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'A legendary chenda maestro who defined Kerala\'s temple music traditions. He led Panchavadyam ensembles and was known for his powerful chenda playing in temple festivals. His death in 2024 marked the end of an era.',
       notableWorks: ['Temple melams', 'Panchavadyam performances', 'Thrissur Pooram'],
+      images: {
+        profile: '/images/artists/peruvanam-kuttan-marar-profile.jpg',
+        performance: []
+      },
       status: 'deceased',
       birthYear: 1942,
       deathYear: 2024,
@@ -924,6 +1028,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'Known as the "Bard of Brahmaputra," Bhupen Hazarika was a polymath - singer, composer, filmmaker, and politician. His songs addressed social justice and celebrated Assamese culture. He brought Assamese music to national prominence.',
       notableWorks: ['Dil Hoom Hoom Kare', 'Bistirno Parore', 'O Ganga Tum'],
+      images: {
+        profile: '/images/artists/bhupen-hazarika-profile.jpg',
+        performance: []
+      },
       status: 'deceased',
       birthYear: 1926,
       deathYear: 2011,
@@ -941,6 +1049,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'A contemporary icon of Assamese music, Zubeen Garg is known for his versatility - from traditional Bihu to rock to Bollywood. His song "Ya Ali" from Gangster brought him national fame, but he remains rooted in Assamese culture.',
       notableWorks: ['Ya Ali (Bollywood)', 'Bihu albums', 'Assamese rock fusion'],
+            images: {
+        profile: '/images/artists/gaana-bala-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         youtube: 'https://www.youtube.com/zubeengarg',
         instagram: 'https://www.instagram.com/zubeengarg'
@@ -992,6 +1104,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'Legendary Carnatic vocalist and composer (1930-2016) who revolutionized Carnatic music. A child prodigy who mastered multiple instruments, he composed over 400 compositions and introduced new ragas. His virtuosity in improvisations, particularly tani avartanams, set new standards. He was equally skilled as an accompanist on multiple instruments.',
       notableWorks: ['Compositions in 72 melakartha ragas', 'Tillana creations', 'New ragas like Mahati, Lavangi'],
+      images: {
+        profile: '/images/artists/balamuralikrishna-profile.jpg',
+        performance: []
+      },
       status: 'deceased',
       birthYear: 1930,
       deathYear: 2016,
@@ -1012,6 +1128,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'Acclaimed Carnatic classical vocalist known for his pure traditional style and strict adherence to classical grammar. Active since the 1970s, he has been a torchbearer of authentic Carnatic music, training numerous disciples across South India.',
       notableWorks: ['Classical concerts', 'Thyagaraja kritis', 'Traditional compositions'],
+      images: {
+        profile: '/images/artists/nedunuri-krishnamurthy-profile.jpg',
+        performance: []
+      },
       status: 'living',
       birthYear: 1940,
       hereditaryTradition: false,
@@ -1030,6 +1150,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'Master of Burra Katha, the traditional storytelling art form of Andhra Pradesh. Accompanied by tambura, he narrated epics, mythology, and social themes with dramatic flair. His work preserved this dying bardic tradition for future generations.',
       notableWorks: ['Epic Burra Katha performances', 'Social issue narratives', 'Traditional stories'],
+      images: {
+        profile: '/images/artists/vangapandu-prasada-rao-profile.jpg',
+        performance: []
+      },
       status: 'deceased',
       birthYear: 1938,
       deathYear: 2010,
@@ -1052,6 +1176,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Master of the Pena, a traditional three-stringed Manipuri fiddle played with a bow. Active since the 1970s, he performs classical Manipuri music and preserves ancient traditions integral to Lai Haraoba rituals and royal court performances.',
       notableWorks: ['Lai Haraoba ritual music', 'Classical Manipuri compositions'],
+      images: {
+        profile: '/images/artists/laishram-birachandra-profile.jpg',
+        performance: []
+      },
       status: 'living',
       birthYear: 1950,
       hereditaryTradition: true,
@@ -1071,6 +1199,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'Virtuoso of the Pung (barrel drum), the primary percussion in Nata Sankirtana. His mastery of complex rhythmic patterns and choreographed drum dances represents the pinnacle of Manipuri percussion traditions inscribed as UNESCO intangible heritage.',
       notableWorks: ['Nata Sankirtana performances', 'Pung cholom (drum dance)'],
+      images: {
+        profile: '/images/artists/mangka-mayanglambam-profile.jpg',
+        performance: []
+      },
       status: 'living',
       birthYear: 1958,
       hereditaryTradition: true,
@@ -1088,6 +1220,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Contemporary Pena player and ethnomusicologist actively documenting and reviving traditional Pena music. Through field recordings, performances, and academic research, he brings attention to this endangered musical tradition.',
       notableWorks: ['Pena documentation project', 'Revival concerts', 'Academic publications'],
+      images: {
+        profile: '/images/artists/mohen-naorem-profile.jpg',
+        performance: []
+      },
       status: 'living',
       birthYear: 1980,
       hereditaryTradition: false,
@@ -1110,6 +1246,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Traditional folk singer from the Chakhesang Naga community, performing indigenous songs passed through oral tradition. Her repertoire includes harvest songs, war ballads, and ceremonial chants preserving Naga cultural identity.',
       notableWorks: ['Harvest songs', 'War ballads', 'Traditional ceremonies'],
+      images: {
+        profile: '/images/artists/nise-meruno-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: true,
       activeYears: '1990s-present',
@@ -1127,6 +1267,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Modern vocal group (Azi, Lulu, Mercy, Kuvü) performing Chakhesang folk music with contemporary arrangements. International touring artists bringing Naga traditions to global audiences while maintaining authentic vocal techniques.',
       notableWorks: ['International tours', 'Folk fusion albums', 'Cultural ambassadors'],
+      images: {
+        profile: '/images/artists/tetseo-sisters-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         youtube: 'https://www.youtube.com/tetseosistersfusion',
         facebook: 'https://www.facebook.com/TetseoSisters'
@@ -1146,6 +1290,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Contemporary music collective blending Naga gospel traditions with indigenous folk elements. Their music reflects Nagaland\'s strong Christian identity while incorporating traditional rhythms and melodic patterns from various tribes.',
       notableWorks: ['Gospel albums', 'Festival performances', 'Christian-indigenous fusion'],
+      images: {
+        profile: '/images/artists/mount-olive-collective-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: false,
       activeYears: '2010s-present',
@@ -1165,6 +1313,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Traditional Mizo vocalist preserving indigenous songs including Chai (epic ballads), Lengkhawm Zai (dance songs), and Hlado (chants). She maintains the oral tradition of Mizo music recounting tribal history and legends.',
       notableWorks: ['Chai ballads', 'Traditional Mizo folk songs', 'Cultural preservation'],
+      images: {
+        profile: '/images/artists/lalhmingliani-sailo-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: true,
       activeYears: '1995-present',
@@ -1181,6 +1333,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Master of traditional Mizo bamboo instruments. His performances showcase the unique soundscape of Mizo tribal music using bamboo drums, gongs, and flutes used in festivals and community gatherings.',
       notableWorks: ['Bamboo instrument performances', 'Festival music', 'Traditional ceremonies'],
+      images: {
+        profile: '/images/artists/vanlalfaka-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: true,
       activeYears: '1990s-present',
@@ -1202,6 +1358,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Expert in traditional Khasi percussion, particularly the Ksing Kynthei used in Nongkrem dance festival. He maintains rhythmic traditions essential to Khasi religious ceremonies and seasonal celebrations of this matrilineal society.',
       notableWorks: ['Nongkrem festival performances', 'Khasi ceremonial music'],
+      images: {
+        profile: '/images/artists/raphael-warjri-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: true,
       activeYears: '1985-present',
@@ -1219,6 +1379,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Contemporary performer of Khasi folk songs including Phawar (spring songs) and traditional ballads. She documents and revives Khasi musical traditions, performing at cultural festivals across Northeast India.',
       notableWorks: ['Phawar spring songs', 'Khasi folk revival', 'Cultural documentation'],
+      images: {
+        profile: '/images/artists/silvia-lyngdoh-profile.jpg',
+        performance: []
+      },
       status: 'living',
       hereditaryTradition: false,
       activeYears: '2005-present',
@@ -1235,6 +1399,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Shillong-based blues duo that brought international recognition to Meghalaya\'s music scene. While contemporary, they\'ve inspired renewed interest in regional heritage and mentored young musicians in "India\'s Rock Capital."',
       notableWorks: ['International blues tours', 'Multiple albums', 'Shillong music scene pioneers'],
+            images: {
+        profile: '/images/artists/mount-olive-collective-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         website: 'https://www.soulmateblues.com',
         youtube: 'https://www.youtube.com/soulmate'
@@ -1260,6 +1428,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       awards: [],
       biography: 'Cultural preservationist working with Adi tribal music traditions. Through performances and documentation, she brings attention to the musical heritage of Arunachal Pradesh\'s diverse tribal communities.',
       notableWorks: ['Adi tribal songs', 'Cultural documentation', 'Festival performances'],
+      images: {
+        profile: '/images/artists/oyang-taki-profile.jpg',
+        performance: []
+      },
       status: 'living',
       birthYear: 1985,
       hereditaryTradition: true,
@@ -1523,6 +1695,10 @@ export const regionalArtistsEnhanced: ArtistsByRegion = {
       ],
       biography: 'Pop icon who brought Goan music to national prominence in the 1980s-90s. His fusion of Western pop with Konkani and Indian elements created a unique sound. Songs like "Maria Pitache" became anthems.',
       notableWorks: ['Maria Pitache', 'Jalwa', 'Goan Crazy'],
+            images: {
+        profile: '/images/artists/oyang-taki-profile.jpg',
+        performance: []
+      },
       socialMedia: {
         website: 'https://www.remofernandes.com'
       },

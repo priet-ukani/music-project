@@ -70,6 +70,234 @@
       }
     },
     "instruments": {},
-    "ensembles": {}
+    "ensembles": {
+      "tyagaraja-jagadananda-pallavi.mp3": {
+        "exists": true,
+        "path": "/audio/ensembles/tyagaraja-jagadananda-pallavi.mp3",
+        "isPlaceholder": false
+      }
+    },
+    "samples": {
+      "gujarat-garba.mp3": {
+        "exists": true,
+        "path": "/audio/gujarat-garba.mp3",
+        "isPlaceholder": false
+      },
+      "gujarat-dandiya.mp3": {
+        "exists": true,
+        "path": "/audio/gujarat-dandiya.mp3",
+        "isPlaceholder": false
+      },
+      "assam-bihu.mp3": {
+        "exists": true,
+        "path": "/audio/assam-bihu.mp3",
+        "isPlaceholder": false
+      },
+      "bengal-baul.mp3": {
+        "exists": true,
+        "path": "/audio/bengal-baul.mp3",
+        "isPlaceholder": false
+      },
+      "bengal-tagore.mp3": {
+        "exists": true,
+        "path": "/audio/bengal-tagore.mp3",
+        "isPlaceholder": false
+      },
+      "chhattisgarh-pandavani.mp3": {
+        "exists": true,
+        "path": "/audio/chhattisgarh-pandavani.mp3",
+        "isPlaceholder": false
+      },
+      "chhattisgarh-raut.mp3": {
+        "exists": true,
+        "path": "/audio/chhattisgarh-raut.mp3",
+        "isPlaceholder": false
+      },
+      "goa-fugdi.mp3": {
+        "exists": true,
+        "path": "/audio/goa-fugdi.mp3",
+        "isPlaceholder": false
+      },
+      "goa-mando.mp3": {
+        "exists": true,
+        "path": "/audio/goa-mando.mp3",
+        "isPlaceholder": false
+      },
+      "gurdas-apna-punjab.mp3": {
+        "exists": true,
+        "path": "/audio/gurdas-apna-punjab.mp3",
+        "isPlaceholder": false
+      },
+      "hemant-shrinathji.mp3": {
+        "exists": true,
+        "path": "/audio/hemant-shrinathji.mp3",
+        "isPlaceholder": false
+      },
+      "jharkhand-jhumair.mp3": {
+        "exists": true,
+        "path": "/audio/jharkhand-jhumair.mp3",
+        "isPlaceholder": false
+      },
+      "jharkhand-karma.mp3": {
+        "exists": true,
+        "path": "/audio/jharkhand-karma.mp3",
+        "isPlaceholder": false
+      },
+      "karnataka-kriti.mp3": {
+        "exists": true,
+        "path": "/audio/karnataka-kriti.mp3",
+        "isPlaceholder": false
+      },
+      "karnataka-yakshagana.mp3": {
+        "exists": true,
+        "path": "/audio/karnataka-yakshagana.mp3",
+        "isPlaceholder": false
+      },
+      "kashmir-sufiana.mp3": {
+        "exists": true,
+        "path": "/audio/kashmir-sufiana.mp3",
+        "isPlaceholder": false
+      },
+      "kerala-panchavadyam.mp3": {
+        "exists": true,
+        "path": "/audio/kerala-panchavadyam.mp3",
+        "isPlaceholder": false
+      },
+      "kerala-sopanam.mp3": {
+        "exists": true,
+        "path": "/audio/kerala-sopanam.mp3",
+        "isPlaceholder": false
+      },
+      "kirtidan-thai.mp3": {
+        "exists": true,
+        "path": "/audio/kirtidan-thai.mp3",
+        "isPlaceholder": false
+      },
+      "maharashtra-lavani.mp3": {
+        "exists": true,
+        "path": "/audio/maharashtra-lavani.mp3",
+        "isPlaceholder": false
+      },
+      "mame-sufi.mp3": {
+        "exists": true,
+        "path": "/audio/mame-sufi.mp3",
+        "isPlaceholder": false
+      },
+      "manipur-pung.mp3": {
+        "exists": true,
+        "path": "/audio/manipur-pung.mp3",
+        "isPlaceholder": false
+      },
+      "meghalaya-khasi.mp3": {
+        "exists": true,
+        "path": "/audio/meghalaya-khasi.mp3",
+        "isPlaceholder": false
+      },
+      "meghalaya-nongkrem.mp3": {
+        "exists": true,
+        "path": "/audio/meghalaya-nongkrem.mp3",
+        "isPlaceholder": false
+      },
+      "mizoram-cheraw.mp3": {
+        "exists": true,
+        "path": "/audio/mizoram-cheraw.mp3",
+        "isPlaceholder": false
+      },
+      "mizoram-hymn.mp3": {
+        "exists": true,
+        "path": "/audio/mizoram-hymn.mp3",
+        "isPlaceholder": false
+      },
+      "nagaland-chant.mp3": {
+        "exists": true,
+        "path": "/audio/nagaland-chant.mp3",
+        "isPlaceholder": false
+      },
+      "odisha-geetagovinda.mp3": {
+        "exists": true,
+        "path": "/audio/odisha-geetagovinda.mp3",
+        "isPlaceholder": false
+      },
+      "odisha-odissi.mp3": {
+        "exists": true,
+        "path": "/audio/odisha-odissi.mp3",
+        "isPlaceholder": false
+      },
+      "osman-har-har-gange.mp3": {
+        "exists": true,
+        "path": "/audio/osman-har-har-gange.mp3",
+        "isPlaceholder": false
+      },
+      "punjab-bhangra.mp3": {
+        "exists": true,
+        "path": "/audio/punjab-bhangra.mp3",
+        "isPlaceholder": false
+      },
+      "punjab-tumbi.mp3": {
+        "exists": true,
+        "path": "/audio/punjab-tumbi.mp3",
+        "isPlaceholder": false
+      },
+      "rajasthan-kamaycha.mp3": {
+        "exists": true,
+        "path": "/audio/rajasthan-kamaycha.mp3",
+        "isPlaceholder": false
+      },
+      "rajasthan-maand.mp3": {
+        "exists": true,
+        "path": "/audio/rajasthan-maand.mp3",
+        "isPlaceholder": false
+      },
+      "tamilnadu-kriti.mp3": {
+        "exists": true,
+        "path": "/audio/tamilnadu-kriti.mp3",
+        "isPlaceholder": false
+      },
+      "tamilnadu-nadaswaram.mp3": {
+        "exists": true,
+        "path": "/audio/tamilnadu-nadaswaram.mp3",
+        "isPlaceholder": false
+      },
+      "telangana-oggu.mp3": {
+        "exists": true,
+        "path": "/audio/telangana-oggu.mp3",
+        "isPlaceholder": false
+      },
+      "telangana-perini.mp3": {
+        "exists": true,
+        "path": "/audio/telangana-perini.mp3",
+        "isPlaceholder": false
+      },
+      "up-shehnai.mp3": {
+        "exists": true,
+        "path": "/audio/up-shehnai.mp3",
+        "isPlaceholder": false
+      },
+      "up-thumri.mp3": {
+        "exists": true,
+        "path": "/audio/up-thumri.mp3",
+        "isPlaceholder": false
+      },
+      "uttarakhand-folk.mp3": {
+        "exists": true,
+        "path": "/audio/uttarakhand-folk.mp3",
+        "isPlaceholder": false
+      },
+      "uttarakhand-jagar.mp3": {
+        "exists": true,
+        "path": "/audio/uttarakhand-jagar.mp3",
+        "isPlaceholder": false
+      },
+      "venkanna-okatante.mp3": {
+        "exists": true,
+        "path": "/audio/venkanna-okatante.mp3",
+        "isPlaceholder": false
+      },
+      "vimalakka-telangana.mp3": {
+        "exists": true,
+        "path": "/audio/vimalakka-telangana.mp3",
+        "isPlaceholder": false
+      }
+    }
   }
 }
