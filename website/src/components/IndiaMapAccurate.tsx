@@ -40,31 +40,6 @@ const STATE_ID_TO_REGION: Record<string, string> = {
     'IN-MP': 'rajasthan', // Madhya Pradesh - shares some traditions
 };
 
-// Reverse mapping for fallback - if a region doesn't have direct state mapping
-const REGION_TO_STATE_FALLBACK: Record<string, string[]> = {
-    'rajasthan': ['IN-RJ'],
-    'punjab': ['IN-PB', 'IN-HR'],
-    'bengal': ['IN-WB'],
-    'telangana': ['IN-TG'],
-    'assam': ['IN-AS'],
-    'kerala': ['IN-KL'],
-    'tamilnadu': ['IN-TN'],
-    'maharashtra': ['IN-MH'],
-    'kashmir': ['IN-JK'],
-    'nagaland': ['IN-NL'],
-    'manipur': ['IN-MN'],
-    'uttarpradesh': ['IN-UP', 'IN-DL', 'IN-BR'],
-    'gujarat': ['IN-GJ'],
-    'karnataka': ['IN-KA'],
-    'odisha': ['IN-OR'],
-    'uttarakhand': ['IN-UT'],
-    'mizoram': ['IN-MZ'],
-    'goa': ['IN-GA'],
-    'meghalaya': ['IN-ML'],
-    'chhattisgarh': ['IN-CT'],
-    'jharkhand': ['IN-JH'],
-};
-
 export default function IndiaMapAccurate({
     selectedRegion,
     onRegionSelect,
@@ -128,74 +103,23 @@ export default function IndiaMapAccurate({
         };
     });
 
-    const hoveredRegion = hoveredStateId ? STATE_ID_TO_REGION[hoveredStateId] : null;
-    const hoveredRegionData = hoveredRegion
-        ? musicalRegions.find((r) => r.id === hoveredRegion)
-        : null;
-
-    // Manual event delegation to handle clicks if the library fails
+    // Simple debug to confirm component mount
     useEffect(() => {
-        const container = mapContainerRef.current;
-        if (!container) return;
+        console.log('IndiaMapAccurate mounted');
+    }, []);
 
-        const handleManualClick = (e: MouseEvent) => {
-            const target = e.target as HTMLElement;
-            console.log('🖱️ Raw click target:', target.tagName, target);
-
-            // Check if we clicked a path or a child of a path
-            // Also check for 'g' elements as some maps group paths
-            const element = target.closest('path') || target.closest('g');
-
-            if (element) {
-                console.log('👆 Click detected on SVG element:', element.tagName, element);
-
-                // Try to get ID from various possible attributes on the element or its parent
-                const stateId = element.getAttribute('id') ||
-                    element.getAttribute('data-id') ||
-                    element.getAttribute('name') ||
-                    element.parentElement?.getAttribute('id'); // Check parent group
-
-                if (stateId) {
-                    console.log('📍 Found state ID:', stateId);
-
-                    // Direct mapping check
-                    if (STATE_ID_TO_REGION[stateId]) {
-                        console.log('✅ Direct match found, triggering select');
-                        handleStateClick(stateId);
-                        e.stopPropagation();
-                        return;
-                    }
-
-                    // Case-insensitive check
-                    const upperId = stateId.toUpperCase();
-                    if (STATE_ID_TO_REGION[upperId]) {
-                        console.log('✅ Case-insensitive match found, triggering select');
-                        handleStateClick(upperId);
-                        e.stopPropagation();
-                        return;
-                    }
-
-                    // Partial match check (e.g. if ID is "IN-RJ-path")
-                    const partialMatch = Object.keys(STATE_ID_TO_REGION).find(key => stateId.includes(key));
-                    if (partialMatch) {
-                        console.log('✅ Partial match found:', partialMatch);
-                        handleStateClick(partialMatch);
-                        e.stopPropagation();
-                        return;
-                    }
-                } else {
-                    console.log('⚠️ Element clicked but no ID found. Attributes:', {
-                        id: element.id,
-                        class: element.className,
-                        name: element.getAttribute('name')
-                    });
-                }
-            }
-        };
-
-        container.addEventListener('click', handleManualClick);
-        return () => container.removeEventListener('click', handleManualClick);
-    }, [selectedRegion]); // Re-bind if needed, though refs are stable
+    // Handle clicks using the hovered state as a reliable fallback
+    // Since the user confirmed hover works (tooltip appears), this should be accurate
+    const handleContainerClick = (e: React.MouseEvent) => {
+        // If we have a hovered state, use it
+        if (hoveredStateId) {
+            console.log('📍 Click captured on container, using hovered state:', hoveredStateId);
+            handleStateClick(hoveredStateId);
+            e.stopPropagation();
+        } else {
+            console.log('⚠️ Click on container but no state is hovered');
+        }
+    };
 
     // Apply dynamic styling to states
     const getStateStyle = (stateId: string) => {
@@ -254,7 +178,7 @@ export default function IndiaMapAccurate({
                 ref={mapContainerRef}
                 className="w-full max-w-4xl mx-auto map-container"
                 style={{ position: 'relative', isolation: 'isolate' }}
-                onClick={(e) => console.log('📦 Container clicked:', e.target)}
+                onClickCapture={handleContainerClick}
             >
                 <style>
                     {`
@@ -289,7 +213,7 @@ svg foreignObject {
 }
 
 svg {
-  pointer-events: auto !important; /* Re-enable clicks on the SVG itself */
+  pointer-events: auto !important; /* SVG should capture clicks */
   z-index: 10;
   position: relative;
 }
@@ -309,9 +233,7 @@ svg path {
 }
 
 svg path:hover {
-  filter: brightness(1.15) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
-  transform: scale(1.02);
-  transform-origin: center;
+  opacity: 0.9 !important;
   z-index: 20;
 }
             

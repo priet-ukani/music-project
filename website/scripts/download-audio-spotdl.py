@@ -116,16 +116,57 @@ AUDIO_QUERIES = {
     "tyagaraja-jagadananda-pallavi.mp3": "Tyagaraja kriti Jagadananda Karaka Carnatic pallavi classical",
 }
 
+# Instrument specific queries
+INSTRUMENT_QUERIES = {
+    # Rajasthan
+    "kamaycha_track.mp3": "Kamaycha instrument solo performance audio",
+    "dholak_track.mp3": "Dholak drum rhythm solo audio",
+    "algoza_loop.mp3": "Algoza double flute solo instrumental",
+    "morchang_loop.mp3": "Morchang jaw harp solo instrumental",
+
+    # Punjab
+    "tumbi_loop.mp3": "Tumbi Punjabi folk instrument solo",
+    "dhol_beat.mp3": "Dhol Punjabi bhangra beat solo",
+    "chimta_track.mp3": "Chimta Punjabi folk instrument solo",
+
+    # Bengal
+    "ektara_loop.mp3": "Ektara Baul instrument solo",
+    "tabla_isolated_beat.mp3": "Tabla solo rhythm loop",
+    "bansuri_alap.mp3": "Bansuri flute alap solo",
+    "dotara_track.mp3": "Dotara Bengal folk instrument solo",
+
+    # Telangana
+    "nadaswaram_phrase.mp3": "Nadaswaram south indian instrument solo",
+    "dappu_beat.mp3": "Dappu drum Telangana folk beat",
+    "dol_rhythm.mp3": "Dol drum rhythm solo",
+
+    # Kerala
+    "chenda_melam.mp3": "Chenda melam solo drum",
+    "maddalam_track.mp3": "Maddalam drum solo",
+    "kombu_call.mp3": "Kombu horn Kerala solo",
+
+    # Tamil Nadu
+    "veena_sample.mp3": "Veena Carnatic classical solo",
+    "mridangam_pattern.mp3": "Mridangam solo thani avartanam",
+    "ghatam_beat.mp3": "Ghatam percussion solo",
+
+    # Gujarat
+    "dandiya_sticks.mp3": "Dandiya Raas sticks rhythm sound",
+    "manjira_loop.mp3": "Manjira cymbals rhythm loop",
+}
+
 # Directories
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 AUDIO_DIR = PROJECT_ROOT / "public" / "audio"
 ENSEMBLE_DIR = AUDIO_DIR / "ensembles"
+INSTRUMENTS_DIR = AUDIO_DIR / "instruments"
 LOG_FILE = SCRIPT_DIR / "audio_download_log.txt"
 
 # Ensure directories exist
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 ENSEMBLE_DIR.mkdir(parents=True, exist_ok=True)
+INSTRUMENTS_DIR.mkdir(parents=True, exist_ok=True)
 
 def log_message(message, to_file=True):
     """Log message to console and file"""
@@ -244,7 +285,21 @@ def main():
     log_message("🎵 Musical Map of India - Audio Downloader (spotdl)")
     log_message("=" * 70)
     log_message(f"Audio directory: {AUDIO_DIR}")
-    log_message(f"Total files to download: {len(AUDIO_QUERIES)}")
+    log_message(f"Instruments directory: {INSTRUMENTS_DIR}")
+    
+    # Prepare tasks
+    tasks = []
+    for filename, query in AUDIO_QUERIES.items():
+        if filename.startswith("tyagaraja"):
+            output_dir = ENSEMBLE_DIR
+        else:
+            output_dir = AUDIO_DIR
+        tasks.append((filename, query, output_dir))
+        
+    for filename, query in INSTRUMENT_QUERIES.items():
+        tasks.append((filename, query, INSTRUMENTS_DIR))
+        
+    log_message(f"Total files to download: {len(tasks)}")
     log_message(f"Log file: {LOG_FILE}\n")
     
     # Check if spotdl is installed
@@ -273,11 +328,11 @@ def main():
         log_message(f"📂 Resuming from checkpoint: {len(completed_files)} files already processed\n")
     
     # Process each audio file
-    for idx, (filename, query) in enumerate(AUDIO_QUERIES.items(), 1):
+    for idx, (filename, query, output_dir) in enumerate(tasks, 1):
         # Show progress bar every file
-        print_progress_bar(idx - 1, len(AUDIO_QUERIES), start_time, successful, failed)
+        print_progress_bar(idx - 1, len(tasks), start_time, successful, failed)
         
-        log_message(f"[{idx}/{len(AUDIO_QUERIES)}] Processing: {filename}")
+        log_message(f"[{idx}/{len(tasks)}] Processing: {filename}")
         log_message(f"{'='*70}")
         
         # Skip if already in checkpoint
@@ -286,16 +341,10 @@ def main():
             skipped += 1
             continue
         
-        # Determine output directory
-        if filename.startswith("tyagaraja"):
-            output_dir = ENSEMBLE_DIR
-        else:
-            output_dir = AUDIO_DIR
-        
         # Check if file already exists and is a real audio file (not placeholder)
-        # Placeholders are ~172KB, real audio should be much larger (>500KB)
+        # Placeholders are ~172KB, real audio should be much larger (>300KB)
         target_path = output_dir / filename
-        if target_path.exists() and target_path.stat().st_size > 500000:  # > 500KB
+        if target_path.exists() and target_path.stat().st_size > 300000:  # > 300KB
             log_message(f"  ⏭️  Already exists ({target_path.stat().st_size // 1024}KB), skipping")
             skipped += 1
             # Add to checkpoint
@@ -328,7 +377,7 @@ def main():
         time.sleep(2)
     
     # Final progress bar
-    print_progress_bar(len(AUDIO_QUERIES), len(AUDIO_QUERIES), start_time, successful, failed)
+    print_progress_bar(len(tasks), len(tasks), start_time, successful, failed)
     
     # Final summary
     log_message("\n" + "=" * 70)
@@ -337,11 +386,11 @@ def main():
     log_message(f"✅ Successful: {successful}")
     log_message(f"⏭️  Skipped (already exist): {skipped}")
     log_message(f"❌ Failed: {failed}")
-    log_message(f"📝 Total processed: {successful + failed + skipped}/{len(AUDIO_QUERIES)}")
+    log_message(f"📝 Total processed: {successful + failed + skipped}/{len(tasks)}")
     log_message(f"📄 Log saved to: {LOG_FILE}")
     
     # Clean up checkpoint if all complete
-    if successful + skipped == len(AUDIO_QUERIES):
+    if successful + skipped == len(tasks):
         if checkpoint_file.exists():
             checkpoint_file.unlink()
             log_message(f"🗑️  Checkpoint file removed (all files complete)")

@@ -1,0 +1,139 @@
+% Musical Map of India - Final Year Project Report
+% Main LaTeX Document Structure
+
+\documentclass[12pt,a4paper,openright]{book}
+
+% Essential Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{csquotes}
+
+% Page Layout
+\geometry{
+    top=1in,
+    bottom=1in,
+    left=1.5in,
+    right=1in
+}
+
+% Line spacing
+\onehalfspacing
+
+% Header and Footer Setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Chapter and Section Formatting
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
+% Hyperref Setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    citecolor=green,
+    pdftitle={Musical Map of India - Final Year Project Report},
+    pdfauthor={Your Name},
+    pdfsubject={Digital Musicology and Cultural Heritage},
+    pdfkeywords={Indian Music, Cultural Heritage, Digital Preservation}
+}
+
+% Custom Commands
+\newcommand{\region}[1]{\textit{#1}}
+\newcommand{\instrument}[1]{\texttt{#1}}
+\newcommand{\raga}[1]{\textit{#1}}
+
+% Graphics Path
+\graphicspath{{images/}}
+
+% Begin Document
+\begin{document}
+
+% Front Matter
+\frontmatter
+
+% Title Page
+\include{chapters/00-titlepage}
+
+% Certificate
+\include{chapters/00-certificate}
+
+% Declaration
+\include{chapters/00-declaration}
+
+% Acknowledgements
+\include{chapters/00-acknowledgements}
+
+% Abstract
+\include{chapters/00-abstract}
+
+% Table of Contents
+\tableofcontents
+\addcontentsline{toc}{chapter}{Table of Contents}
+
+% List of Figures
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+% List of Tables
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+% Main Matter
+\mainmatter
+
+% Chapters
+\include{chapters/01-introduction}
+\include{chapters/02-history-evolution}
+\include{chapters/03-why-matters}
+\include{chapters/04-music-unique}
+\include{chapters/05-regional-systems}
+\include{chapters/06-platform-experience}
+\include{chapters/07-research-methods}
+\include{chapters/08-challenges}
+\include{chapters/09-learned}
+\include{chapters/10-future}
+\include{chapters/11-conclusion}
+
+% Back Matter
+\backmatter
+
+% References
+\bibliographystyle{ieeetr}
+\bibliography{references}
+\addcontentsline{toc}{chapter}{References}
+
+% Appendices
+\appendix
+\include{chapters/appendix-a-instruments}
+\include{chapters/appendix-b-artists}
+\include{chapters/appendix-c-audio}
+\include{chapters/appendix-d-timeline}
+
+\end{document}
