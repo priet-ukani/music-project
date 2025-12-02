@@ -67,9 +67,9 @@ export const musicalRegions: MusicalRegion[] = [
         ],
 
         instrumentTracks: [
-            { id: 'raj_maand', name: 'Maand Vocal', audioUrl: '/audio/rajasthan-maand.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#d97706', category: 'string' },
-            { id: 'raj_kamaycha', name: 'Kamaycha', audioUrl: '/audio/rajasthan-kamaycha.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#dc2626', category: 'string' },
-            { id: 'raj_sufi', name: 'Sufi Folk', audioUrl: '/audio/mame-sufi.mp3', volume: 0.5, isMuted: false, isLoaded: false, color: '#16a34a', category: 'unique' },
+            { id: 'raj_kamaycha', name: 'Kamaycha', audioUrl: '/audio/instruments/kamaycha_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#dc2626', category: 'string' },
+            { id: 'raj_morchang', name: 'Morchang', audioUrl: '/audio/instruments/morchang_loop.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
+            { id: 'raj_dholak', name: 'Dholak', audioUrl: '/audio/instruments/dholak_track.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
         ],
 
         images: {
@@ -165,9 +165,9 @@ export const musicalRegions: MusicalRegion[] = [
         ],
 
         instrumentTracks: [
-            { id: 'pun_bhangra', name: 'Bhangra Dhol', audioUrl: '/audio/punjab-bhangra.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
-            { id: 'pun_tumbi', name: 'Tumbi', audioUrl: '/audio/punjab-tumbi.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#dc2626', category: 'string' },
-            { id: 'pun_apna', name: 'Folk Anthem', audioUrl: '/audio/gurdas-apna-punjab.mp3', volume: 0.5, isMuted: false, isLoaded: false, color: '#9333ea', category: 'unique' },
+            { id: 'pun_dhol', name: 'Bhangra Dhol', audioUrl: '/audio/instruments/dhol_rhythm.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
+            { id: 'pun_chimta', name: 'Chimta', audioUrl: '/audio/instruments/chimta_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
+            { id: 'pun_algoza', name: 'Algoza', audioUrl: '/audio/instruments/algoza_loop.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
         ],
 
         images: {
@@ -263,8 +263,8 @@ export const musicalRegions: MusicalRegion[] = [
         ],
 
         instrumentTracks: [
-            { id: 'ben_baul', name: 'Baul Mystical', audioUrl: '/audio/bengal-baul.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#0891b2', category: 'string' },
-            { id: 'ben_tagore', name: 'Rabindra Sangeet', audioUrl: '/audio/bengal-tagore.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#dc2626', category: 'unique' },
+            { id: 'ben_dotara', name: 'Dotara Melody', audioUrl: '/audio/instruments/dotara_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#0891b2', category: 'string' },
+            { id: 'ben_ektara', name: 'Ektara Rhythm', audioUrl: '/audio/instruments/ektara_loop.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#dc2626', category: 'string' },
         ],
 
         images: {
@@ -297,7 +297,7 @@ export const musicalRegions: MusicalRegion[] = [
         name: 'Telangana',
         coordinates: { lat: 17.3850, lng: 78.4867 },
         color: '#ef4444',
-        description: 'Perini Shiva Tandavam (martial dance), Oggu Katha bardic epics, and folk percussion (dappu) define Telangana’s vibrant soundscape.',
+        description: 'Perini Shiva Tandavam, Oggu Katha epics, and the vibrant Bathukamma flower festival define Telangana’s unique cultural soundscape.',
 
         geography: {
             terrain: ['Deccan Plateau', 'Granite hillocks', 'Godavari-Krishna basins'],
@@ -308,8 +308,8 @@ export const musicalRegions: MusicalRegion[] = [
         language: {
             primary: ['Telugu (Telangana dialects)', 'Urdu'],
             linguisticFamily: 'Dravidian (Telugu), Indo-Aryan (Urdu)',
-            lyricalThemes: ['Shiva devotion', 'Pastoral epics (Yadava mythology)', 'Social protest', 'Agrarian life'],
-            poeticTraditions: ['Oggu Katha narrative epics', 'Janapada folk songs', 'Burra Katha (storytelling)'],
+            lyricalThemes: ['Shiva devotion', 'Goddess worship (Bathukamma/Bonalu)', 'Ramadasu Kirtanas', 'Social protest'],
+            poeticTraditions: ['Oggu Katha epics', 'Vaggeyakara tradition (Ramadasu)', 'Bathukamma folk songs'],
         },
 
         instruments: {
@@ -331,7 +331,7 @@ export const musicalRegions: MusicalRegion[] = [
             vocalStyle: ['Declamatory narrative (Oggu Katha)', 'Shouted dance syllables (Perini)', 'Temple chant'],
             ornamentation: ['Syllabic clarity', 'Rhythmic exclamations', 'Limited melisma'],
             improvisation: 'Narrators extemporize within fixed story cycles; dance cues drive form',
-            performanceContext: ['Temple festivals', 'Village squares', 'Processions', 'Cultural rallies'],
+            performanceContext: ['Bathukamma flower festival', 'Bonalu processions', 'Temple festivals (Bhadrachalam)', 'Cultural rallies'],
             typicalDuration: '20–60 minutes for sets; narratives can span hours',
         },
 
@@ -340,7 +340,7 @@ export const musicalRegions: MusicalRegion[] = [
             hereditaryTradition: true,
             genderDynamics: 'Male-led public performance; women present in community folk singing',
             patronage: ['Temple/endowment support', 'Community donations', 'State cultural academies'],
-            religiousContext: ['Shaivism (Mallikarjuna/Perini)', 'Village goddess cults', 'Syncretic Hyderabad traditions'],
+            religiousContext: ['Shaivism', 'Vaishnavism (Ramadasu tradition)', 'Goddess cults (Yellamma/Pochamma)'],
             modernChallenges: ['Urban migration reducing folk patronage', 'Amplified pop replacing live ensembles'],
         },
 
@@ -355,12 +355,17 @@ export const musicalRegions: MusicalRegion[] = [
                 file: '/audio/telangana-oggu.mp3',
                 description: 'Bardic storytelling with dappu-driven rhythmic accompaniment',
             },
+            {
+                title: 'Bathukamma Song',
+                file: '/audio/vimalakka-telangana.mp3',
+                description: 'Women’s communal folk song celebrating nature and the goddess',
+            },
         ],
 
         instrumentTracks: [
-            { id: 'tel_perini', name: 'Perini Shiva', audioUrl: '/audio/telangana-perini.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#16a34a', category: 'percussion' },
-            { id: 'tel_oggu', name: 'Oggu Katha', audioUrl: '/audio/telangana-oggu.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#dc2626', category: 'unique' },
-            { id: 'tel_venkanna', name: 'Folk Song', audioUrl: '/audio/venkanna-okatante.mp3', volume: 0.5, isMuted: false, isLoaded: false, color: '#ea580c', category: 'unique' },
+            { id: 'tel_dappu', name: 'Dappu Beat', audioUrl: '/audio/instruments/dappu_beat.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#16a34a', category: 'percussion' },
+            { id: 'tel_dol', name: 'Dol Rhythm', audioUrl: '/audio/instruments/dol_rhythm.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#dc2626', category: 'percussion' },
+            { id: 'tel_kommu', name: 'Kommu Horn', audioUrl: '/audio/instruments/kombu_call.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#d97706', category: 'wind' },
         ],
 
         images: {
@@ -447,6 +452,12 @@ export const musicalRegions: MusicalRegion[] = [
                 file: '/audio/assam-bihu.mp3',
                 description: 'Energetic Bihu song with dhol, pepa, and communal singing',
             },
+        ],
+
+        instrumentTracks: [
+            { id: 'asm_pepa', name: 'Pepa Horn', audioUrl: '/audio/instruments/kombu_call.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#d97706', category: 'wind' },
+            { id: 'asm_dhol', name: 'Bihu Dhol', audioUrl: '/audio/instruments/dhol_rhythm.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#dc2626', category: 'percussion' },
+            { id: 'asm_gogona', name: 'Gogona', audioUrl: '/audio/instruments/morchang_loop.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#16a34a', category: 'unique' },
         ],
 
         images: {
@@ -541,8 +552,9 @@ export const musicalRegions: MusicalRegion[] = [
         ],
 
         instrumentTracks: [
-            { id: 'ker_panchavadyam', name: 'Panchavadyam', audioUrl: '/audio/kerala-panchavadyam.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#dc2626', category: 'percussion' },
-            { id: 'ker_sopanam', name: 'Sopanam', audioUrl: '/audio/kerala-sopanam.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#ea580c', category: 'unique' },
+            { id: 'ker_chenda', name: 'Chenda Drum', audioUrl: '/audio/instruments/dhol_rhythm.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#dc2626', category: 'percussion' },
+            { id: 'ker_maddalam', name: 'Maddalam', audioUrl: '/audio/instruments/maddalam_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#ea580c', category: 'percussion' },
+            { id: 'ker_edakka', name: 'Edakka', audioUrl: '/audio/instruments/dholak_track.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
         ],
 
         images: {
@@ -637,8 +649,9 @@ export const musicalRegions: MusicalRegion[] = [
         ],
 
         instrumentTracks: [
-            { id: 'tn_kriti', name: 'Carnatic Kriti', audioUrl: '/audio/tamilnadu-kriti.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#d97706', category: 'unique' },
-            { id: 'tn_nadaswaram', name: 'Nadaswaram', audioUrl: '/audio/tamilnadu-nadaswaram.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
+            { id: 'tn_mridangam', name: 'Mridangam', audioUrl: '/audio/instruments/mridangam_track.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
+            { id: 'tn_veena', name: 'Veena', audioUrl: '/audio/instruments/veena_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#b45309', category: 'string' },
+            { id: 'tn_ghatam', name: 'Ghatam', audioUrl: '/audio/instruments/ghatam_beat.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#16a34a', category: 'percussion' },
         ],
 
         images: {
@@ -723,6 +736,12 @@ export const musicalRegions: MusicalRegion[] = [
                 file: '/audio/maharashtra-lavani.mp3',
                 description: 'Energetic Lavani with dholki, ghungroo bells, and theatrical vocals',
             },
+        ],
+
+        instrumentTracks: [
+            { id: 'mah_lavani', name: 'Lavani', audioUrl: '/audio/maharashtra-lavani.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#ec4899', category: 'unique' },
+            { id: 'mah_dholki', name: 'Dholki Rhythm', audioUrl: '/audio/instruments/dholak_track.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
+            { id: 'mah_ghungroo', name: 'Ghungroo', audioUrl: '/audio/instruments/ghatam_beat.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
         ],
 
         images: {
@@ -810,6 +829,12 @@ export const musicalRegions: MusicalRegion[] = [
             },
         ],
 
+        instrumentTracks: [
+            { id: 'kas_santoor', name: 'Santoor', audioUrl: '/audio/instruments/veena_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#0891b2', category: 'string' },
+            { id: 'kas_rabab', name: 'Rabab', audioUrl: '/audio/instruments/dotara_track.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#d97706', category: 'string' },
+            { id: 'kas_tumbaknari', name: 'Tumbaknari', audioUrl: '/audio/instruments/ghatam_beat.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
+        ],
+
         images: {
             instruments: ['/images/kashmir-santoor.jpg', '/images/kashmir-rabab.jpg'],
             performance: ['/images/kashmir-performance.jpg'],
@@ -894,6 +919,11 @@ export const musicalRegions: MusicalRegion[] = [
             },
         ],
 
+        instrumentTracks: [
+            { id: 'nag_logdrum', name: 'Log Drum', audioUrl: '/audio/instruments/dhol_rhythm.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
+            { id: 'nag_flute', name: 'Bamboo Flute', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
+        ],
+
         images: {
             instruments: ['/images/nagaland-logdrum.jpg', '/images/nagaland-bamboo.jpg'],
             performance: ['/images/nagaland-festival.jpg'],
@@ -960,6 +990,11 @@ export const musicalRegions: MusicalRegion[] = [
                 file: '/audio/manipur-pung.mp3',
                 description: 'Classical pung drum performance for Manipuri dance',
             },
+        ],
+
+        instrumentTracks: [
+            { id: 'man_pung', name: 'Pung Cholom', audioUrl: '/audio/instruments/dholak_track.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#dc2626', category: 'percussion' },
+            { id: 'man_pena', name: 'Pena', audioUrl: '/audio/instruments/kamaycha_track.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#0891b2', category: 'string' },
         ],
 
         images: {
@@ -1055,6 +1090,12 @@ export const musicalRegions: MusicalRegion[] = [
             },
         ],
 
+        instrumentTracks: [
+            { id: 'up_tabla', name: 'Tabla Rhythm', audioUrl: '/audio/instruments/tabla_loop.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
+            { id: 'up_dholak', name: 'Folk Dholak', audioUrl: '/audio/instruments/dholak_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
+            { id: 'up_bansuri', name: 'Bansuri Melody', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
+        ],
+
         images: {
             instruments: ['/images/up-sitar.jpg', '/images/up-tabla.jpg', '/images/up-shehnai.jpg'],
             performance: ['/images/up-classical.jpg'],
@@ -1147,9 +1188,9 @@ export const musicalRegions: MusicalRegion[] = [
         ],
 
         instrumentTracks: [
-            { id: 'guj_garba', name: 'Garba', audioUrl: '/audio/gujarat-garba.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#dc2626', category: 'unique' },
-            { id: 'guj_dandiya', name: 'Dandiya Raas', audioUrl: '/audio/gujarat-dandiya.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
-            { id: 'guj_hemant', name: 'Bhajan', audioUrl: '/audio/hemant-shrinathji.mp3', volume: 0.5, isMuted: false, isLoaded: false, color: '#0891b2', category: 'unique' },
+            { id: 'guj_dholak', name: 'Garba Dholak', audioUrl: '/audio/instruments/dholak_track.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#dc2626', category: 'percussion' },
+            { id: 'guj_manjira', name: 'Manjira Rhythm', audioUrl: '/audio/instruments/ghatam_beat.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
+            { id: 'guj_flute', name: 'Krishna Flute', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#0891b2', category: 'wind' },
         ],
 
         images: {
@@ -1243,6 +1284,12 @@ export const musicalRegions: MusicalRegion[] = [
                 file: '/audio/karnataka-yakshagana.mp3',
                 description: 'Traditional Yakshagana theater music with chande drums',
             },
+        ],
+
+        instrumentTracks: [
+            { id: 'kar_veena', name: 'Saraswati Veena', audioUrl: '/audio/instruments/veena_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#d97706', category: 'string' },
+            { id: 'kar_mridangam', name: 'Mridangam', audioUrl: '/audio/instruments/mridangam_track.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
+            { id: 'kar_flute', name: 'Venu Flute', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
         ],
 
         images: {
@@ -1340,6 +1387,11 @@ export const musicalRegions: MusicalRegion[] = [
             },
         ],
 
+        instrumentTracks: [
+            { id: 'odi_mardala', name: 'Mardala', audioUrl: '/audio/instruments/maddalam_track.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#dc2626', category: 'percussion' },
+            { id: 'odi_flute', name: 'Odissi Flute', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
+        ],
+
         images: {
             instruments: ['/images/odisha-mardala.jpg', '/images/odisha-bansuri.jpg'],
             performance: ['/images/odisha-odissi.jpg'],
@@ -1427,6 +1479,12 @@ export const musicalRegions: MusicalRegion[] = [
                 file: '/audio/uttarakhand-folk.mp3',
                 description: 'Traditional Kumaoni folk song about mountains',
             },
+        ],
+
+        instrumentTracks: [
+            { id: 'uk_dhol', name: 'Dhol Rhythm', audioUrl: '/audio/instruments/dhol_rhythm.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#f59e0b', category: 'percussion' },
+            { id: 'uk_algoza', name: 'Algoza Melody', audioUrl: '/audio/instruments/algoza_loop.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#10b981', category: 'wind' },
+            { id: 'uk_bansuri', name: 'Mountain Flute', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#059669', category: 'wind' },
         ],
 
         images: {
@@ -1518,6 +1576,12 @@ export const musicalRegions: MusicalRegion[] = [
             },
         ],
 
+        instrumentTracks: [
+            { id: 'miz_khuang', name: 'Khuang Drum', audioUrl: '/audio/instruments/dhol_rhythm.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
+            { id: 'miz_bamboo', name: 'Bamboo Clapping', audioUrl: '/audio/instruments/ghatam_beat.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
+            { id: 'miz_flute', name: 'Bamboo Flute', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
+        ],
+
         images: {
             instruments: ['/images/mizoram-khuang.jpg', '/images/mizoram-cheraw.jpg'],
             performance: ['/images/mizoram-dance.jpg'],
@@ -1605,6 +1669,12 @@ export const musicalRegions: MusicalRegion[] = [
                 file: '/audio/goa-fugdi.mp3',
                 description: 'Energetic women\'s folk dance with dhol',
             },
+        ],
+
+        instrumentTracks: [
+            { id: 'goa_guitar', name: 'Portuguese Guitar', audioUrl: '/audio/instruments/veena_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#d97706', category: 'string' },
+            { id: 'goa_ghumot', name: 'Ghumot Drum', audioUrl: '/audio/instruments/ghatam_beat.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
+            { id: 'goa_violin', name: 'Violin Melody', audioUrl: '/audio/instruments/kamaycha_track.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#0891b2', category: 'string' },
         ],
 
         images: {
@@ -1696,6 +1766,12 @@ export const musicalRegions: MusicalRegion[] = [
             },
         ],
 
+        instrumentTracks: [
+            { id: 'meg_duitara', name: 'Duitara', audioUrl: '/audio/instruments/dotara_track.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#d97706', category: 'string' },
+            { id: 'meg_drum', name: 'Ksing Drum', audioUrl: '/audio/instruments/dhol_rhythm.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#b45309', category: 'percussion' },
+            { id: 'meg_flute', name: 'Bamboo Flute', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
+        ],
+
         images: {
             instruments: ['/images/meghalaya-duitara.jpg', '/images/meghalaya-drum.jpg'],
             performance: ['/images/meghalaya-nongkrem.jpg'],
@@ -1766,6 +1842,12 @@ export const musicalRegions: MusicalRegion[] = [
                 file: '/audio/chhattisgarh-raut.mp3',
                 description: 'Energetic folk dance with mandar drum',
             },
+        ],
+
+        instrumentTracks: [
+            { id: 'chh_mandar', name: 'Mandar Drum', audioUrl: '/audio/instruments/dholak_track.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#dc2626', category: 'percussion' },
+            { id: 'chh_ektara', name: 'Ektara Drone', audioUrl: '/audio/instruments/ektara_loop.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#d97706', category: 'string' },
+            { id: 'chh_flute', name: 'Bansuri', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
         ],
 
         images: {
@@ -1855,6 +1937,12 @@ export const musicalRegions: MusicalRegion[] = [
                 file: '/audio/jharkhand-karma.mp3',
                 description: 'Harvest celebration music with powerful drumming',
             },
+        ],
+
+        instrumentTracks: [
+            { id: 'jha_mandar', name: 'Mandar Rhythm', audioUrl: '/audio/instruments/dhol_rhythm.mp3', volume: 0.8, isMuted: false, isLoaded: false, color: '#dc2626', category: 'percussion' },
+            { id: 'jha_flute', name: 'Bamli Flute', audioUrl: '/audio/instruments/bansuri_alap.mp3', volume: 0.7, isMuted: false, isLoaded: false, color: '#16a34a', category: 'wind' },
+            { id: 'jha_cymbals', name: 'Jhanj Cymbals', audioUrl: '/audio/instruments/ghatam_beat.mp3', volume: 0.6, isMuted: false, isLoaded: false, color: '#d97706', category: 'percussion' },
         ],
 
         images: {

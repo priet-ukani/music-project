@@ -11,7 +11,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
   RadarChart,
   Radar,
@@ -20,7 +19,7 @@ import {
   PolarRadiusAxis,
 } from 'recharts';
 import {
-  getRegionalDistribution,
+
   getInstrumentDistribution,
   getTempoDistribution,
   getSocialContextStats,
@@ -230,12 +229,12 @@ export default function AnalyticsDashboard({ isOpen, onClose }: AnalyticsDashboa
                           cx="50%"
                           cy="50%"
                           labelLine={false}
-                          label={({ category, count }) => `${category}: ${count}`}
+                          label={({ index }) => instrumentCategoryData[index]?.category || ''}
                           outerRadius={100}
                           fill="#8884d8"
                           dataKey="count"
                         >
-                          {instrumentCategoryData.map((entry, index) => (
+                          {instrumentCategoryData.map((_entry, index) => (
                             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                           ))}
                         </Pie>

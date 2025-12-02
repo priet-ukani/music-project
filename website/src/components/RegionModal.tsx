@@ -8,8 +8,7 @@ import ArtistCard from './ArtistCard';
 import instrumentsMetadata from '../data/instrumentsMetadata';
 import InstrumentSpotlight from './InstrumentSpotlight';
 import SimpleAudioPlayer from './SimpleAudioPlayer';
-import AudioPlayer from './AudioPlayer';
-import WaveformPlayer from './WaveformPlayer';
+
 import SoundscapeMixer from './SoundscapeMixer';
 
 interface RegionModalProps {

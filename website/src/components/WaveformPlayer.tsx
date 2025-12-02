@@ -42,8 +42,10 @@ const WaveformPlayer: React.FC<WaveformPlayerProps> = ({
         const response = await fetch('/audio/manifest.json');
         if (response.ok) {
           const manifest = await response.json();
-          const audioName = audioUrl.split('/').pop();
+          const audioName = audioUrl.split('/').pop() || '';
           
+          if (!audioName) return;
+
           // Check all sections and explicitly check for true
           const isPlaceholder = 
             (manifest.audio?.ambient?.[audioName]?.isPlaceholder === true) ||

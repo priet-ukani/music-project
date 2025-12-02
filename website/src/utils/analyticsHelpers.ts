@@ -4,7 +4,7 @@
  */
 
 import { musicalRegions } from '../data/regions.ts';
-import type { MusicalRegion } from '../types/music';
+
 
 export interface RegionDistribution {
   name: string;

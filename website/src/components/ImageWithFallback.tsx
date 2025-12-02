@@ -27,7 +27,7 @@ export default function ImageWithFallback({
   const [imageSrc, setImageSrc] = useState<string>(src);
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
-  const [manifestChecked, setManifestChecked] = useState(false);
+  const [, setManifestChecked] = useState(false);
 
   // Check manifest to see if image exists
   useEffect(() => {
@@ -74,7 +74,7 @@ export default function ImageWithFallback({
   };
 
   // Generate placeholder if we know image doesn't exist
-  const placeholderUrl = `https://via.placeholder.com/${width}x${height}/e5e7eb/9ca3af?text=${encodeURIComponent(fallbackText || alt || 'Image')}`;
+
 
   if (hasError && !isLoading) {
     return (

@@ -27,10 +27,12 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ audioUrl, onClose }) => {
         const response = await fetch('/audio/manifest.json');
         if (response.ok) {
           const manifest = await response.json();
-          const audioName = audioUrl.split('/').pop();
+          const audioName = audioUrl.split('/').pop() || '';
           
+          if (!audioName) return;
+
           // Check ambient, instruments, ensembles, or samples
-          const audioPath = audioUrl.replace('/audio/', '');
+
           const isPlaceholder = 
             (manifest.audio?.ambient?.[audioName]?.isPlaceholder === true) ||
             (manifest.audio?.instruments?.[audioName]?.isPlaceholder === true) ||
@@ -69,7 +71,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ audioUrl, onClose }) => {
         setDuration(soundRef.current?.duration() || 0);
         setIsLoading(false);
       },
-      onloaderror: function(id, error) {
+      onloaderror: function(_id, error) {
         console.error('Audio load error:', error);
         console.error('Audio URL:', audioUrl);
         console.error('File exists check - try accessing:', window.location.origin + audioUrl);

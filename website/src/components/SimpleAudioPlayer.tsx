@@ -30,8 +30,10 @@ const SimpleAudioPlayer: React.FC<SimpleAudioPlayerProps> = ({
         const response = await fetch('/audio/manifest.json');
         if (response.ok) {
           const manifest = await response.json();
-          const audioName = audioUrl.split('/').pop();
+          const audioName = audioUrl.split('/').pop() || '';
           
+          if (!audioName) return;
+
           const isPlaceholder = 
             (manifest.audio?.ambient?.[audioName]?.isPlaceholder === true) ||
             (manifest.audio?.instruments?.[audioName]?.isPlaceholder === true) ||

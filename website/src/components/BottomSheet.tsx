@@ -1,5 +1,5 @@
-import { motion, AnimatePresence, PanInfo } from 'framer-motion';
-import { ReactNode } from 'react';
+import { motion, AnimatePresence, type PanInfo } from 'framer-motion';
+import type { ReactNode } from 'react';
 import { X } from 'lucide-react';
 import { useIsMobile, useLockBodyScroll } from '../utils/mobileOptimizations';
 

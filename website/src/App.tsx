@@ -13,7 +13,7 @@ import TimelineViewer from './components/TimelineViewer';
 import { musicalRegions } from './data/regions';
 import regionalArtistsEnhanced from './data/regionalArtistsEnhanced';
 import type { MusicalRegion } from './types/music';
-import { useIsMobile, useSwipeGesture } from './utils/mobileOptimizations';
+import { useIsMobile } from './utils/mobileOptimizations';
 
 function App() {
   const [selectedRegion, setSelectedRegion] = useState<MusicalRegion | null>(null);
